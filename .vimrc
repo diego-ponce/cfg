@@ -60,7 +60,9 @@ nnoremap <Leader>ps :Rg<SPACE>
 nnoremap <silent> <Leader>+ :vertical resize +5<CR>
 nnoremap <silent> <Leader>- :vertical resize -5<CR>
 
-set <M-e>=e
+" set <M-e>=e
+
+inoremap <C-e> <C-R>=AutoPairsFastWrap()<CR>
 let g:surround_100 = "{{ \r }}"
 
 "-- EMMET CONFIG --
