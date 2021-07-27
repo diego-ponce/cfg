@@ -2,7 +2,7 @@
 
 retrieve the dotfiles
 ```{bash}
-curl https://raw.githubusercontent.com/diego-ponce/code_snippets/main/dotfiles_script
+curl https://raw.githubusercontent.com/diego-ponce/code_snippets/main/dotfiles_script | /bin/bash
 ```
 source bashrc
 ```{bash}
