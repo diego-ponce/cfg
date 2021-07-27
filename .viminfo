@@ -11,217 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/app
+~MSle0/python
 
 # Last Substitute Search Pattern:
-~MSle0&users
+~MSle0~&, array
 
 # Last Substitute String:
-$main
+$\r, array
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1614275729,,"wq"
 :q!
-|2,0,1614274959,,"q!"
+|2,0,1627356536,,"q!"
+:x
+|2,0,1627356530,,"x"
+:PlugUpdate
+|2,0,1627356526,,"PlugUpdate"
+:plugupdate
+|2,0,1627356521,,"plugupdate"
+:plugupdte
+|2,0,1627356512,,"plugupdte"
+:PlugInstall
+|2,0,1627356464,,"PlugInstall"
+:wq
+|2,0,1627356450,,"wq"
 :w
-|2,0,1613980499,,"w"
-:e flaskblog/models.py
-|2,0,1613980444,,"e flaskblog/models.py"
-:r 0
-|2,0,1613978858,,"r 0"
-:registers
-|2,0,1613978835,,"registers"
-:'<,'>s/ //g
-|2,0,1613978745,,"'<,'>s/ //g"
-:sp ~/.bash_profile
-|2,0,1613978679,,"sp ~/.bash_profile"
-:%s/']//g
-|2,0,1613978458,,"%s/']//g"
-:%s/app.config\['//g
-|2,0,1613978440,,"%s/app.config\\['//g"
-:%s/app.config['//g
-|2,0,1613978418,,"%s/app.config['//g"
-:vsp flaskblog/__init__.py
-|2,0,1613978268,,"vsp flaskblog/__init__.py"
-:b1
-|2,0,1613977227,,"b1"
-:ls
-|2,0,1613977221,,"ls"
-:e flaskblog/main/routes.py
-|2,0,1613977069,,"e flaskblog/main/routes.py"
-:e flaskblog/users/routes.py
-|2,0,1613977037,,"e flaskblog/users/routes.py"
-:e flaskblog/users/forms.py
-|2,0,1613977005,,"e flaskblog/users/forms.py"
-:%s/url_for('home/url_for('main.home/g
-|2,0,1613975985,,"%s/url_for('home/url_for('main.home/g"
-:%s/url_for('reset/url_for('users.reset/g
-|2,0,1613975911,,"%s/url_for('reset/url_for('users.reset/g"
-:%s/url_for('login/url_for('users.login/g
-|2,0,1613975517,,"%s/url_for('login/url_for('users.login/g"
-:%s/url_for('account/url_for('users.account/g
-|2,0,1613975475,,"%s/url_for('account/url_for('users.account/g"
-:%s/url_for('about/url_for('main.about/g
-|2,0,1613975424,,"%s/url_for('about/url_for('main.about/g"
-:37
-|2,0,1613975364,,"37"
-:%s/url_for('post/url_for('posts.post/g
-|2,0,1613975227,,"%s/url_for('post/url_for('posts.post/g"
-:q
-|2,0,1613975085,,"q"
-:ew
-|2,0,1613975075,,"ew"
-:argdo update
-|2,0,1613975021,,"argdo update"
-:argdo %s/url_for('delete_post/url_for('posts.delete_post/g
-|2,0,1613975017,,"argdo %s/url_for('delete_post/url_for('posts.delete_post/g"
-:argdo %s/url_for('update_post/url_for('posts.update_post/g
-|2,0,1613974999,,"argdo %s/url_for('update_post/url_for('posts.update_post/g"
-:argdo %s/url_for('new_post/url_for('posts.new_post/g
-|2,0,1613974973,,"argdo %s/url_for('new_post/url_for('posts.new_post/g"
-:argdo %s/url_for('users.home/url_for('main.home/g
-|2,0,1613974924,,"argdo %s/url_for('users.home/url_for('main.home/g"
-:argdo %s/url_for('about/url_for('main.about/g
-|2,0,1613974887,,"argdo %s/url_for('about/url_for('main.about/g"
-:argdo %s/url_for('home/url_for('users.home/g
-|2,0,1613974859,,"argdo %s/url_for('home/url_for('users.home/g"
-:argdo %s/url_for('reset/url_for('users.reset/g
-|2,0,1613974827,,"argdo %s/url_for('reset/url_for('users.reset/g"
-:argdo %s/url_for('user_posts/url_for('users.user_posts/g
-|2,0,1613974794,,"argdo %s/url_for('user_posts/url_for('users.user_posts/g"
-:argdo %s/url_for('account/url_for('users.account/g
-|2,0,1613974765,,"argdo %s/url_for('account/url_for('users.account/g"
-:argdo %s/url_for('logout/url_for('users.logout/g
-|2,0,1613974735,,"argdo %s/url_for('logout/url_for('users.logout/g"
-:argdo %s/url_for('login/url_for('users.login/g
-|2,0,1613974705,,"argdo %s/url_for('login/url_for('users.login/g"
-:argdo %s/url_for('register/url_for('users.register/g
-|2,0,1613974638,,"argdo %s/url_for('register/url_for('users.register/g"
-:args flaskblog/*
-|2,0,1613974552,,"args flaskblog/*"
+|2,0,1627332387,,"w"
+:set wrap
+|2,0,1627258379,,"set wrap"
+:set paste
+|2,0,1627180947,,"set paste"
+:'<,'>s/, array/\r, array/g
+|2,0,1626315734,,"'<,'>s/, array/\\r, array/g"
+:n
+|2,0,1626146208,,"n"
+:n!
+|2,0,1626146202,,"n!"
+:set noswap
+|2,0,1626146181,,"set noswap"
+:q1
+|2,0,1626141920,,"q1"
+:n1
+|2,0,1626141917,,"n1"
+:0
+|2,0,1626141911,,"0"
+:%s/python/Python/g
+|2,0,1626113812,,"%s/python/Python/g"
+:Q!
+|2,0,1624729177,,"Q!"
+:%s/[‚Äú‚Äù]/"/g
+|2,0,1622399921,,"%s/[‚Äú‚Äù]/\"/g"
+:set paster
+|2,0,1622398517,,"set paster"
+:X
+|2,0,1622398422,,"X"
+:sbn
+|2,0,1622342592,,"sbn"
+:! python3.8 %
+|2,0,1621406158,,"! python3.8 %"
+:W
+|2,0,1621405264,,"W"
+:!python %
+|2,0,1621404464,,"!python %"
+:! python %
+|2,0,1621404018,,"! python %"
+:'<,'>s/\ i\ /\ number\ /
+|2,0,1621403594,,"'<,'>s/\\ i\\ /\\ number\\ /"
+:e somefunc.py
+|2,0,1620585551,,"e somefunc.py"
+:we
+|2,0,1620585251,,"we"
+:e flaskapp.py
+|2,0,1620585158,,"e flaskapp.py"
 :set hidden
-|2,0,1613974524,,"set hidden"
-:vert sb flaskblog/users/routes.py
-|2,0,1613974212,,"vert sb flaskblog/users/routes.py"
-:e flaskblog/posts/routes.py
-|2,0,1613974124,,"e flaskblog/posts/routes.py"
-:e flaskblog/__init__.py
-|2,0,1613973818,,"e flaskblog/__init__.py"
-:b6
-|2,0,1613973677,,"b6"
-:argdo %s/url_for('post/url_for('posts.post/g
-|2,0,1613973131,,"argdo %s/url_for('post/url_for('posts.post/g"
-:argdo %s/url_for('home/url_for('main.home/g
-|2,0,1613972796,,"argdo %s/url_for('home/url_for('main.home/g"
-:argdo %s/url_for('reset_token/url_for('users.reset_token/g
-|2,0,1613972757,,"argdo %s/url_for('reset_token/url_for('users.reset_token/g"
-:argdo %s/url_for('reset_request/url_for('users.reset_request/g
-|2,0,1613972729,,"argdo %s/url_for('reset_request/url_for('users.reset_request/g"
-:args flaskblog/templates/*
-|2,0,1613972442,,"args flaskblog/templates/*"
+|2,0,1620584626,,"set hidden"
+:ls
+|2,0,1620584568,,"ls"
+:python %
+|2,0,1620584522,,"python %"
+:%s/engaged/paired with/g
+|2,0,1619397193,,"%s/engaged/paired with/g"
+:%s/engagements/matchings/g
+|2,0,1619397141,,"%s/engagements/matchings/g"
+:%s/couple/pair/g
+|2,0,1619397114,,"%s/couple/pair/g"
+:%s/man/mentor/g
+|2,0,1619397077,,"%s/man/mentor/g"
+:%s/\ man\ /\ mentor\ /g
+|2,0,1619397027,,"%s/\\ man\\ /\\ mentor\\ /g"
+:%s/woman/mentee/g
+|2,0,1619396983,,"%s/woman/mentee/g"
+:%s/_women/_mentees/g
+|2,0,1619396966,,"%s/_women/_mentees/g"
+:%s/_men/_mentors/g
+|2,0,1619396946,,"%s/_men/_mentors/g"
+:%s/_men/mentors/g
+|2,0,1619396927,,"%s/_men/mentors/g"
+:%s/\n/,\ /
+|2,0,1619314586,,"%s/\\n/,\\ /"
+:%s/\ (.*)//
+|2,0,1619314535,,"%s/\\ (.*)//"
+:sb1
+|2,0,1617515471,,"sb1"
+:e regions.py
+|2,0,1617514091,,"e regions.py"
+:bp
+|2,0,1617509676,,"bp"
+:e surf.py
+|2,0,1617508981,,"e surf.py"
+:vert sb rowan.txt
+|2,0,1618292482,,"vert sb rowan.txt"
 
 # Search String History (newest to oldest):
-?/app
-|2,1,1613980518,47,"app"
-?  
-|2,1,1613978745,," "
-? ']
-|2,1,1613978458,,"']"
-? app.config\['
-|2,1,1613978440,,"app.config\\['"
-? app.config['//g
-|2,1,1613978418,,"app.config['//g"
+? , array
+|2,1,1626315734,,", array"
+? python
+|2,1,1626113812,,"python"
+?/miss it
+|2,1,1624062844,47,"miss it"
+?/send
+|2,1,1622400836,47,"send"
+? [‚Äú‚Äù]
+|2,1,1622399921,,"[‚Äú‚Äù]"
+?/send_P
+|2,1,1622342600,47,"send_P"
+? \ i\ 
+|2,1,1621403594,,"\\ i\\ "
+?/_df
+|2,1,1620598481,47,"_df"
+?/false
+|2,1,1620092972,47,"false"
+? engaged
+|2,1,1619397193,,"engaged"
+? engagements
+|2,1,1619397141,,"engagements"
+? couple
+|2,1,1619397114,,"couple"
+? man
+|2,1,1619397077,,"man"
+?/man
+|2,1,1619397055,47,"man"
+? \ man\ 
+|2,1,1619397027,,"\\ man\\ "
+? woman
+|2,1,1619396983,,"woman"
+? _women
+|2,1,1619396966,,"_women"
+? _men
+|2,1,1619396946,,"_men"
+?/men
+|2,1,1619396870,47,"men"
+? \n
+|2,1,1619314586,,"\\n"
+? \ (.*)
+|2,1,1619314535,,"\\ (.*)"
+? \<North\>
+|2,1,1617510629,,"\\<North\\>"
 ?/db
-|2,1,1613977276,47,"db"
-?/.query
-|2,1,1613976875,47,".query"
-?/posts.pos
-|2,1,1613976413,47,"posts.pos"
-? url_for('home
-|2,1,1613975985,,"url_for('home"
-? url_for('reset
-|2,1,1613975911,,"url_for('reset"
-?/url_for('
-|2,1,1613975592,47,"url_for('"
-? url_for('login
-|2,1,1613975517,,"url_for('login"
-? url_for('account
-|2,1,1613975475,,"url_for('account"
-? url_for('about
-|2,1,1613975424,,"url_for('about"
-? url_for('post
-|2,1,1613975227,,"url_for('post"
+|2,1,1616953352,47,"db"
+? user\(name\)\?
+|2,1,1616953173,,"user\\(name\\)\\?"
+? User
+|2,1,1616953100,,"User"
+?/User
+|2,1,1616953070,47,"User"
+? ,
+|2,1,1617339595,,","
+?/message
+|2,1,1616957684,47,"message"
+??message
+|2,1,1616957583,63,"message"
+? ^# 
+|2,1,1616905542,,"^# "
+?/std
+|2,1,1616891617,47,"std"
+?/shou
+|2,1,1616891596,47,"shou"
+?/parti
+|2,1,1616891580,47,"parti"
 ? @$
-|2,1,1613975021,,"@$"
-? url_for('delete_post
-|2,1,1613975017,,"url_for('delete_post"
-? url_for('update_post
-|2,1,1613974999,,"url_for('update_post"
-? url_for('new_post
-|2,1,1613974973,,"url_for('new_post"
-? url_for('user_posts
-|2,1,1613974794,,"url_for('user_posts"
-? url_for('logout
-|2,1,1613974735,,"url_for('logout"
-? url_for('register
-|2,1,1613974638,,"url_for('register"
-?/url_for('account
-|2,1,1613974448,47,"url_for('account"
-?/login_user
-|2,1,1613974317,47,"login_user"
-?/logout_user
-|2,1,1613974300,47,"logout_user"
-?/current_user
-|2,1,1613974276,47,"current_user"
-? url_for('reset_token
-|2,1,1613972757,,"url_for('reset_token"
-? url_for('reset_request
-|2,1,1613972729,,"url_for('reset_request"
-? url_for\(\'register
-|2,1,1613972036,,"url_for\\(\\'register"
-? users
-|2,1,1613963442,,"users"
-? @app
-|2,1,1613960567,,"@app"
-?/Serializer
-|2,1,1613953883,47,"Serializer"
-? password
-|2,1,1613953355,,"password"
-? )}}
-|2,1,1613876070,,")}}"
-?/Fo
-|2,1,1613872737,47,"Fo"
-?/reset
-|2,1,1613872727,47,"reset"
-?/pass 
-|2,1,1613871675,47,"pass "
-??validat
-|2,1,1613870419,63,"validat"
-? email
-|2,1,1613870213,,"email"
-??validate_
-|2,1,1613865302,63,"validate_"
-? \<__pycache__\>
-|2,1,1613861010,,"\\<__pycache__\\>"
-?/dev/snd/hwC0D3
-|2,1,1613331791,47,"dev/snd/hwC0D3"
-?/dev/snd/by-path/pci-0000:00:1b.0
-|2,1,1613331791,47,"dev/snd/by-path/pci-0000:00:1b.0"
-?/dev/snd/by-path
-|2,1,1613331791,47,"dev/snd/by-path"
-?/dev/snd
-|2,1,1613331791,47,"dev/snd"
-?/dev/mei0
-|2,1,1613331791,47,"dev/mei0"
-?/dev/kvm
-|2,1,1613331791,47,"dev/kvm"
-?/dev/cdrw
-|2,1,1613331791,47,"dev/cdrw"
-?/dev/dvd
-|2,1,1613331791,47,"dev/dvd"
-?/dev/dvdrw
-|2,1,1613331791,47,"dev/dvdrw"
+|2,1,1616889150,,"@$"
+? print\ \(.*$\)
+|2,1,1615877424,,"print\\ \\(.*$\\)"
+? print
+|2,1,1615877264,,"print"
+? \<projects\>
+|2,1,1615762436,,"\\<projects\\>"
+? ,\ 
+|2,1,1615079875,,",\\ "
+?/file
+|2,1,1615096218,47,"file"
+? , 
+|2,1,1615096209,,", "
+? main
+|2,1,1615165005,,"main"
+? \$\(cursor\|select\)\$
+|2,1,1615164660,,"\\$\\(cursor\\|select\\)\\$"
+? 404
+|2,1,1615164393,,"404"
+? }{
+|2,1,1615095095,,"}{"
+? \(\w\) and
+|2,1,1614663924,,"\\(\\w\\) and"
+??(
+|2,1,1614580611,63,"("
+? >>>\ 
+|2,1,1614579855,,">>>\\ "
+? \<soup\>
+|2,1,1614579769,,"\\<soup\\>"
+? >
+|2,1,1614579754,,">"
+? /\>\>\>\ //g
+|2,1,1614579740,,"/\\>\\>\\>\\ //g"
 
 # Expression History (newest to oldest):
 
@@ -233,278 +233,1661 @@ $main
 
 # Registers:
 "0	CHAR	0
-	SQLALCHEMY_DATABASE_URI 
-|3,0,0,0,1,0,1613978979,"SQLALCHEMY_DATABASE_URI "
-"1	LINE	0
-	import os
-|3,0,1,1,1,0,1613979153,"import os"
+	The `chrome_print` method converted my links to raw markdown
+|3,0,0,0,1,0,1627260205,"The `chrome_print` method converted my links to raw markdown"
+""1	LINE	0
+	echo "succesfully aliased config"
+|3,1,1,1,1,0,1627356446,"echo \"succesfully aliased config\""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1613978927,""
+|3,0,2,1,1,0,1627353025,""
 "3	LINE	0
-	
-|3,0,3,1,1,0,1613978909,""
+	export SQLALCHEMY_DATABASE_URI='sqlite:///site.db'
+|3,0,3,1,1,0,1627353024,"export SQLALCHEMY_DATABASE_URI='sqlite:///site.db'"
 "4	LINE	0
-	app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
-	app.config['MAIL_PORT'] = 587
-	app.config['MAIL_USE_TLS'] = True
-	app.config['MAIL_USERNAME'] = os.environ.get('EMAIL_USER')
-	app.config['MAIL_PASSWORD'] = os.environ.get('EMAIL_PASS')
-|3,0,4,1,5,0,1613978326,"app.config['MAIL_SERVER'] = 'smtp.googlemail.com'","app.config['MAIL_PORT'] = 587","app.config['MAIL_USE_TLS'] = True","app.config['MAIL_USERNAME'] = os.environ.get('EMAIL_USER')","app.config['MAIL_PASSWORD'] = os.environ.get('EMAIL_PASS')"
+	export SECRET_KEY='a219bd54ce56bda1064a9a0e2df05646'
+|3,0,4,1,1,0,1627353023,"export SECRET_KEY='a219bd54ce56bda1064a9a0e2df05646'"
 "5	LINE	0
-	app.config['SECRET_KEY'] = 'a219bd54ce56bda1064a9a0e2df05646'
-	app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
-|3,0,5,1,2,0,1613978280,"app.config['SECRET_KEY'] = 'a219bd54ce56bda1064a9a0e2df05646'","app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'"
+	---
+|3,0,5,1,1,0,1627180974,"---"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1613975021,""
+	---
+|3,0,6,1,1,0,1627180972,"---"
 "7	LINE	0
-	
-|3,0,7,1,1,0,1613975021,""
+	output:
+	  html_document: default
+	  pdf_document: default
+	knit: pagedown::chrome_print
+|3,0,7,1,4,0,1627180918,"output:","  html_document: default","  pdf_document: default","knit: pagedown::chrome_print"
 "8	LINE	0
+	```{css echo=FALSE}
+	/* Define a margin before h2 element */
+	h4  {
+	  margin-top: 2em;
+	}
 	
-|3,0,8,1,1,0,1613975021,""
+	#r-markdown  {
+	  margin-top: 6em;
+	}
+	
+	#r-markdown p:first-of-type {
+	  margin-bottom: 3em;
+	}
+	
+	body  {
+	  margin-top: 4%;
+	  margin-left: 10%;
+	  margin-right: 10%;
+	}
+	``` 
+|3,0,8,1,20,0,1627180912,"```{css echo=FALSE}","/* Define a margin before h2 element */","h4  {","  margin-top: 2em;","}","","#r-markdown  {","  margin-top: 6em;","}","","#r-markdown p:first-of-type {","  margin-bottom: 3em;","}","","body  {","  margin-top: 4%;","  margin-left: 10%;","  margin-right: 10%;","}","``` "
 "9	LINE	0
 	
-|3,0,9,1,1,0,1613975021,""
+|3,0,9,1,1,0,1626315642,""
 "a	CHAR	0
 	yy3pÄkhÄkr/ s.ÄkdÄkhÄkrdwÄkdÄkhÄkrdwi.ÄkdÄkh
 |3,0,10,0,1,0,0,"yy3pÄkhÄkr/ s.ÄkdÄkhÄkrdwÄkdÄkhÄkrdwi.ÄkdÄkh"
 "c	CHAR	0
 	wÄ˝a
 |3,0,12,0,1,0,1611114907,"wÄ˝a"
+"q@	CHAR	0
+	f#10i Ä˝ad23|10i Ä˝ad30|+
+|3,2,26,0,1,0,1614664348,"f#10i Ä˝ad23|10i Ä˝ad30|+"
 "u	CHAR	0
 	oteÄkbÄ˝aÄ˝a
 |3,0,30,0,1,0,1611122915,"oteÄkbÄ˝aÄ˝a"
-""-	CHAR	0
-	,
-|3,1,36,0,1,0,1613980533,","
+"-	CHAR	0
+	/home/rumple
+|3,0,36,0,1,0,1627346881,"/home/rumple"
 
 # File marks:
-'0  13  38  ~/david_b/baseball_simulation/text-adventure.cpp
-|4,48,13,38,1614275729,"~/david_b/baseball_simulation/text-adventure.cpp"
-'1  2  37  ~/Flask_blog/flaskblog/users/routes.py
-|4,49,2,37,1613980544,"~/Flask_blog/flaskblog/users/routes.py"
-'2  1  0  ~/Flask_blog/flaskblog/models.py
-|4,50,1,0,1613980458,"~/Flask_blog/flaskblog/models.py"
-'3  7  0  ~/Flask_blog/flaskblog/models.py
-|4,51,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
-'4  7  0  ~/Flask_blog/flaskblog/models.py
-|4,52,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
-'5  1  0  ~/Flask_blog/flaskblog/users/routes.py
-|4,53,1,0,1613979383,"~/Flask_blog/flaskblog/users/routes.py"
-'6  1  0  ~/Flask_blog/flaskblog/users/routes.py
-|4,54,1,0,1613979383,"~/Flask_blog/flaskblog/users/routes.py"
-'7  3  0  ~/Flask_blog/flaskblog/config.py
-|4,55,3,0,1613979192,"~/Flask_blog/flaskblog/config.py"
-'8  18  5  ~/Flask_blog/flaskblog/posts/routes.py
-|4,56,18,5,1613977297,"~/Flask_blog/flaskblog/posts/routes.py"
-'9  6  35  ~/Flask_blog/flaskblog/users/forms.py
-|4,57,6,35,1613976662,"~/Flask_blog/flaskblog/users/forms.py"
+'0  25  0  ~/.bashrc
+|4,48,25,0,1627356450,"~/.bashrc"
+'1  1  0  ~/.bash_profile
+|4,49,1,0,1627353029,"~/.bash_profile"
+'2  26  31  ~/.bashrc
+|4,50,26,31,1627352783,"~/.bashrc"
+'3  26  31  ~/.bashrc
+|4,51,26,31,1627352783,"~/.bashrc"
+'4  25  65  ~/.bashrc
+|4,52,25,65,1627346888,"~/.bashrc"
+'5  25  65  ~/.bashrc
+|4,53,25,65,1627346888,"~/.bashrc"
+'6  25  65  ~/.bashrc
+|4,54,25,65,1627346888,"~/.bashrc"
+'7  5  18  ~/Desktop/resume/contact.yaml
+|4,55,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+'8  1  12  ~/Desktop/resume/contact.yaml
+|4,56,1,12,1627332906,"~/Desktop/resume/contact.yaml"
+'9  1  12  ~/Desktop/resume/contact.yaml
+|4,57,1,12,1627332906,"~/Desktop/resume/contact.yaml"
 
 # Jumplist (newest first):
--'  13  38  ~/david_b/baseball_simulation/text-adventure.cpp
-|4,39,13,38,1614275729,"~/david_b/baseball_simulation/text-adventure.cpp"
--'  1  0  ~/david_b/baseball_simulation/text-adventure.cpp
-|4,39,1,0,1614275444,"~/david_b/baseball_simulation/text-adventure.cpp"
--'  2  37  ~/Flask_blog/flaskblog/users/routes.py
-|4,39,2,37,1613980544,"~/Flask_blog/flaskblog/users/routes.py"
--'  2  37  ~/Flask_blog/flaskblog/users/routes.py
-|4,39,2,37,1613980544,"~/Flask_blog/flaskblog/users/routes.py"
--'  2  37  ~/Flask_blog/flaskblog/users/routes.py
-|4,39,2,37,1613980544,"~/Flask_blog/flaskblog/users/routes.py"
--'  2  37  ~/Flask_blog/flaskblog/users/routes.py
-|4,39,2,37,1613980544,"~/Flask_blog/flaskblog/users/routes.py"
--'  1  96  ~/Flask_blog/flaskblog/users/routes.py
-|4,39,1,96,1613980530,"~/Flask_blog/flaskblog/users/routes.py"
--'  1  96  ~/Flask_blog/flaskblog/users/routes.py
-|4,39,1,96,1613980530,"~/Flask_blog/flaskblog/users/routes.py"
--'  1  96  ~/Flask_blog/flaskblog/users/routes.py
-|4,39,1,96,1613980530,"~/Flask_blog/flaskblog/users/routes.py"
--'  1  96  ~/Flask_blog/flaskblog/users/routes.py
-|4,39,1,96,1613980530,"~/Flask_blog/flaskblog/users/routes.py"
--'  3  0  ~/Flask_blog/flaskblog/users/routes.py
-|4,39,3,0,1613980526,"~/Flask_blog/flaskblog/users/routes.py"
--'  3  0  ~/Flask_blog/flaskblog/users/routes.py
-|4,39,3,0,1613980526,"~/Flask_blog/flaskblog/users/routes.py"
--'  3  0  ~/Flask_blog/flaskblog/users/routes.py
-|4,39,3,0,1613980526,"~/Flask_blog/flaskblog/users/routes.py"
--'  3  0  ~/Flask_blog/flaskblog/users/routes.py
-|4,39,3,0,1613980526,"~/Flask_blog/flaskblog/users/routes.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980458,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980458,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980458,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980458,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980458,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980458,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980458,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980458,"~/Flask_blog/flaskblog/models.py"
--'  4  25  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,4,25,1613980444,"~/Flask_blog/flaskblog/users/utils.py"
--'  4  25  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,4,25,1613980444,"~/Flask_blog/flaskblog/users/utils.py"
--'  4  25  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,4,25,1613980444,"~/Flask_blog/flaskblog/users/utils.py"
--'  4  25  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,4,25,1613980444,"~/Flask_blog/flaskblog/users/utils.py"
--'  4  25  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,4,25,1613980444,"~/Flask_blog/flaskblog/users/utils.py"
--'  4  25  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,4,25,1613980444,"~/Flask_blog/flaskblog/users/utils.py"
--'  4  25  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,4,25,1613980444,"~/Flask_blog/flaskblog/users/utils.py"
--'  4  25  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,4,25,1613980444,"~/Flask_blog/flaskblog/users/utils.py"
--'  1  0  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,1,0,1613980381,"~/Flask_blog/flaskblog/users/utils.py"
--'  1  0  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,1,0,1613980381,"~/Flask_blog/flaskblog/users/utils.py"
--'  1  0  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,1,0,1613980381,"~/Flask_blog/flaskblog/users/utils.py"
--'  1  0  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,1,0,1613980381,"~/Flask_blog/flaskblog/users/utils.py"
--'  1  0  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,1,0,1613980381,"~/Flask_blog/flaskblog/users/utils.py"
--'  1  0  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,1,0,1613980381,"~/Flask_blog/flaskblog/users/utils.py"
--'  1  0  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,1,0,1613980381,"~/Flask_blog/flaskblog/users/utils.py"
--'  1  0  ~/Flask_blog/flaskblog/users/utils.py
-|4,39,1,0,1613980381,"~/Flask_blog/flaskblog/users/utils.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  7  0  ~/Flask_blog/flaskblog/models.py
-|4,39,7,0,1613980350,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980307,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980307,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980307,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980307,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980307,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980307,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980307,"~/Flask_blog/flaskblog/models.py"
--'  1  0  ~/Flask_blog/flaskblog/models.py
-|4,39,1,0,1613980307,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  27  31  ~/Flask_blog/flaskblog/models.py
-|4,39,27,31,1613980304,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  22  31  ~/Flask_blog/flaskblog/models.py
-|4,39,22,31,1613980302,"~/Flask_blog/flaskblog/models.py"
--'  3  38  ~/Flask_blog/flaskblog/models.py
-|4,39,3,38,1613980274,"~/Flask_blog/flaskblog/models.py"
--'  3  38  ~/Flask_blog/flaskblog/models.py
-|4,39,3,38,1613980274,"~/Flask_blog/flaskblog/models.py"
--'  3  38  ~/Flask_blog/flaskblog/models.py
-|4,39,3,38,1613980274,"~/Flask_blog/flaskblog/models.py"
--'  3  38  ~/Flask_blog/flaskblog/models.py
-|4,39,3,38,1613980274,"~/Flask_blog/flaskblog/models.py"
--'  3  38  ~/Flask_blog/flaskblog/models.py
-|4,39,3,38,1613980274,"~/Flask_blog/flaskblog/models.py"
--'  3  38  ~/Flask_blog/flaskblog/models.py
-|4,39,3,38,1613980274,"~/Flask_blog/flaskblog/models.py"
+-'  25  0  ~/.bashrc
+|4,39,25,0,1627356450,"~/.bashrc"
+-'  25  0  ~/.bashrc
+|4,39,25,0,1627356450,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1627356446,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1627356446,"~/.bashrc"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1627353029,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1627353029,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1627353029,"~/.bash_profile"
+-'  1  0  ~/.bash_profile
+|4,39,1,0,1627353029,"~/.bash_profile"
+-'  26  31  ~/.bashrc
+|4,39,26,31,1627352783,"~/.bashrc"
+-'  26  31  ~/.bashrc
+|4,39,26,31,1627352783,"~/.bashrc"
+-'  26  31  ~/.bashrc
+|4,39,26,31,1627352783,"~/.bashrc"
+-'  26  31  ~/.bashrc
+|4,39,26,31,1627352783,"~/.bashrc"
+-'  26  31  ~/.bashrc
+|4,39,26,31,1627352783,"~/.bashrc"
+-'  26  31  ~/.bashrc
+|4,39,26,31,1627352783,"~/.bashrc"
+-'  2  0  ~/.bashrc
+|4,39,2,0,1627352756,"~/.bashrc"
+-'  2  0  ~/.bashrc
+|4,39,2,0,1627352756,"~/.bashrc"
+-'  2  0  ~/.bashrc
+|4,39,2,0,1627352756,"~/.bashrc"
+-'  2  0  ~/.bashrc
+|4,39,2,0,1627352756,"~/.bashrc"
+-'  2  0  ~/.bashrc
+|4,39,2,0,1627352756,"~/.bashrc"
+-'  2  0  ~/.bashrc
+|4,39,2,0,1627352756,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1627347967,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1627347967,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1627347967,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1627347967,"~/.bashrc"
+-'  25  65  ~/.bashrc
+|4,39,25,65,1627346888,"~/.bashrc"
+-'  25  65  ~/.bashrc
+|4,39,25,65,1627346888,"~/.bashrc"
+-'  25  65  ~/.bashrc
+|4,39,25,65,1627346888,"~/.bashrc"
+-'  25  65  ~/.bashrc
+|4,39,25,65,1627346888,"~/.bashrc"
+-'  25  65  ~/.bashrc
+|4,39,25,65,1627346888,"~/.bashrc"
+-'  25  65  ~/.bashrc
+|4,39,25,65,1627346888,"~/.bashrc"
+-'  25  65  ~/.bashrc
+|4,39,25,65,1627346888,"~/.bashrc"
+-'  25  65  ~/.bashrc
+|4,39,25,65,1627346888,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1627346846,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1627346846,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1627346846,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1627346846,"~/.bashrc"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  5  18  ~/Desktop/resume/contact.yaml
+|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/Desktop/resume/contact.yaml
+|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.bashrc
+	*	1627356448	0
+	"	25	0
+	.	26	0
+	+	25	65
+	+	26	0
+
+> ~/.bash_profile
+	*	1627353028	0
+	"	1	0
+	.	1	0
+	+	1	4
+	+	1	6
+	+	1	0
+
+> ~/Desktop/resume/contact.yaml
+	*	1627338225	0
+	"	5	18
+	^	5	19
+	.	5	18
+	+	4	45
+	+	5	18
+	+	1	14
+	+	2	25
+	+	3	29
+	+	4	38
+	+	5	18
+	+	1	24
+	+	2	29
+	+	3	29
+	+	4	45
+	+	5	18
+
+> ~/Desktop/resume/README.md
+	*	1627260246	0
+	"	28	152
+	^	28	153
+	.	28	152
+	+	3	311
+	+	1	38
+	+	8	0
+	+	1	8
+	+	7	23
+	+	10	0
+	+	9	4
+	+	10	26
+	+	11	0
+	+	13	12
+	+	7	56
+	+	13	41
+	+	24	564
+	+	26	202
+	+	28	152
+
+> ~/Desktop/resume/ponce_resume2.md
+	*	1627180977	0
+	"	1	0
+	^	7	3
+	.	1	0
+	+	8	0
+	+	1	9
+	+	1	3
+	+	7	3
+	+	8	0
+	+	1	0
+
+> ~/Desktop/resume/ControlP
+	*	1627180925	0
+	"	8	0
+	.	2	0
+	+	2	0
+
+> ~/Desktop/resume/resume_text.txt
+	*	1627162888	0
+	"	77	0
+	^	77	0
+	.	77	0
+	+	1	0
+	+	77	0
+
+> ~/some.py
+	*	1626315794	0
+	"	9	0
+	^	27	130
+	.	21	0
+	+	1	18
+	+	19	0
+	+	1	0
+	+	27	91
+	+	21	0
+
+> ~/cs340_intro_databases/advanced_sql_assignment_part_b_starter_code/query3.sql
+	*	1626151231	0
+	"	9	0
+	^	9	1
+	.	9	0
+	+	9	0
+
+> ~/cs340_intro_databases/advanced_sql_assignment_part_b_starter_code/query2.sql
+	*	1626146202	0
+	"	1	0
+
+> ~/cs340_intro_databases/advanced_sql_assignment_part_b_starter_code/query1.sql
+	*	1626146197	0
+	"	13	32
+	^	13	35
+	.	13	34
+	+	13	34
+
+> ~/cs340_intro_databases/advanced_sql_assignment_part_b_starter_code/1
+	*	1626141917	0
+	"	1	0
+
+> ~/cs340_intro_databases/advanced_sql_assignment_part_b_starter_code/query5.sql
+	*	1626141911	0
+	"	1	0
+
+> ~/cs340_intro_databases/advanced_sql_assignment_part_b_starter_code/query4.sql
+	*	1626141898	0
+	"	1	0
+
+> ~/Desktop/resume/ponce_resume.md
+	*	1626114104	0
+	"	28	123
+	^	30	192
+	.	28	124
+	+	8	15
+	+	14	0
+	+	8	0
+	+	14	0
+	+	8	43
+	+	14	0
+	+	9	0
+	+	8	46
+	+	16	90
+	+	17	0
+	+	16	132
+	+	16	199
+	+	16	121
+	+	15	0
+	+	38	131
+	+	39	0
+	+	40	133
+	+	41	0
+	+	48	129
+	+	49	0
+	+	51	0
+	+	52	148
+	+	54	0
+	+	53	0
+	+	61	0
+	+	63	0
+	+	85	0
+	+	86	137
+	+	87	0
+	+	3	76
+	+	16	0
+	+	15	0
+	+	12	0
+	+	16	0
+	+	10	333
+	+	2	0
+	+	5	0
+	+	12	0
+	+	19	0
+	+	10	98
+	+	11	0
+	+	36	19
+	+	20	0
+	+	31	0
+	+	24	17
+	+	19	0
+	+	32	0
+	+	26	4
+	+	28	13
+	+	26	49
+	+	25	0
+	+	27	0
+	+	20	23
+	+	28	0
+	+	30	191
+	+	28	124
+
+> ~/Desktop/ponce_resume.md
+	*	1626108866	0
+	"	91	0
+
+> ~/robert_interview.md
+	*	1624844264	0
+	"	36	0
+	^	36	0
+	.	39	0
+	+	4	95
+	+	9	0
+	+	8	9
+	+	41	1
+	+	29	173
+	+	31	53
+	+	39	0
+
+> ~/Desktop/AA.txt
+	*	1624729177	0
+	"	403	4
+
+> ~/Arduino/libraries/ESPAsyncWebServer/src/WebRequest.cpp
+	*	1622401040	0
+	"	197	0
+
+> ~/Arduino/libraries/ESPAsyncWebServer/WebRequest.cpp
+	*	1622400815	0
+	"	1	0
+
+> ~/Arduino/sketch_may12a/SPIFF_image_to_web.ino
+	*	1622398579	0
+	"	95	0
+	^	234	1
+	.	234	0
+	+	234	0
+
+> ~/Arduino/libraries/AsyncTCP/src/AsyncTCP.cpp
+	*	1622342607	0
+	"	1357	0
+
+> ~/Arduino/libraries/AsyncTCP/src/AsyncTCP.h
+	*	1622342600	0
+	"	1	0
+
+> ~/Surf_Alerts/twillio_send.py
+	*	1622307006	0
+	"	2	0
+
+> ~/print_primes.py
+	*	1621406175	0
+	"	53	19
+	^	43	20
+	.	43	19
+	+	10	14
+	+	2	0
+	+	1	17
+	+	2	7
+	+	10	45
+	+	46	0
+	+	47	8
+	+	43	0
+	+	41	0
+	+	37	10
+	+	47	16
+	+	37	0
+	+	47	15
+	+	2	28
+	+	3	0
+	+	10	17
+	+	10	11
+	+	14	19
+	+	13	17
+	+	15	34
+	+	17	9
+	+	18	18
+	+	20	0
+	+	50	0
+	+	56	9
+	+	13	10
+	+	15	9
+	+	10	42
+	+	50	4
+	+	49	10
+	+	55	0
+	+	52	27
+	+	51	17
+	+	21	42
+	+	53	0
+	+	50	13
+	+	5	10
+	+	12	0
+	+	10	14
+	+	5	14
+	+	10	0
+	+	11	0
+	+	5	11
+	+	7	22
+	+	9	12
+	+	20	0
+	+	21	60
+	+	22	0
+	+	28	0
+	+	25	16
+	+	29	38
+	+	24	13
+	+	26	20
+	+	31	29
+	+	29	47
+	+	33	18
+	+	32	0
+	+	33	0
+	+	34	19
+	+	53	18
+	+	29	33
+	+	34	10
+	+	35	0
+	+	28	0
+	+	28	24
+	+	44	23
+	+	45	14
+	+	28	0
+	+	43	19
+
+> ~/demo_generate_report_from_input/README.md
+	*	1620606670	0
+	"	12	0
+	^	12	0
+	.	11	130
+	+	7	30
+	+	8	0
+	+	7	2
+	+	15	314
+	+	17	0
+	+	11	130
+
+> ~/twilio_demo/somefunc.py
+	*	1620598578	0
+	"	12	8
+	^	12	9
+	.	12	8
+	+	18	16
+	+	15	16
+	+	3	34
+	+	8	24
+	+	16	8
+	+	17	31
+	+	18	16
+	+	23	19
+	+	25	20
+	+	28	31
+	+	23	13
+	+	25	0
+	+	23	0
+	+	25	0
+	+	23	0
+	+	29	0
+	+	28	14
+	+	29	15
+	+	16	38
+	+	24	15
+	+	2	22
+	+	13	0
+	+	14	72
+	+	20	48
+	+	3	44
+	+	5	49
+	+	4	21
+	+	5	25
+	+	8	0
+	+	5	25
+	+	6	36
+	+	8	18
+	+	9	23
+	+	10	35
+	+	16	50
+	+	5	17
+	+	9	17
+	+	11	13
+	+	12	8
+
+> ~/twilio_demo/flaskapp.py
+	*	1620585547	0
+	"	7	92
+	^	7	93
+	.	7	92
+	+	7	37
+	+	2	0
+	+	7	28
+	+	1	9
+	+	6	28
+	+	7	36
+	+	2	74
+	+	6	98
+	+	5	146
+	+	7	92
+
+> ~/.config/gqrx/default.conf
+	*	1620096477	0
+	"	7	0
+	^	7	0
+	.	6	12
+	+	10	0
+	+	8	0
+	+	10	0
+	+	8	0
+	+	9	14
+	+	6	0
+	+	8	14
+	+	5	14
+	+	6	12
+
+> ~/Flask_blog/run.py
+	*	1619979097	0
+	"	6	52
+	^	6	53
+	.	6	52
+	+	6	52
+
+> ~/stable_matching.py
+	*	1619397791	0
+	"	46	4
+	^	45	0
+	.	45	0
+	+	5	56
+	+	6	56
+	+	7	56
+	+	8	54
+	+	12	20
+	+	13	0
+	+	14	0
+	+	13	33
+	+	14	50
+	+	15	46
+	+	16	0
+	+	18	0
+	+	16	26
+	+	17	0
+	+	16	53
+	+	19	0
+	+	15	25
+	+	77	9
+	+	75	0
+	+	21	25
+	+	20	37
+	+	24	12
+	+	67	0
+	+	30	26
+	+	36	29
+	+	46	0
+	+	67	0
+	+	47	45
+	+	48	83
+	+	50	51
+	+	51	30
+	+	52	68
+	+	56	64
+	+	67	12
+	+	56	22
+	+	58	33
+	+	57	43
+	+	58	77
+	+	63	34
+	+	64	44
+	+	55	95
+	+	58	62
+	+	56	60
+	+	59	32
+	+	60	76
+	+	61	17
+	+	71	20
+	+	73	40
+	+	74	30
+	+	54	21
+	+	65	20
+	+	4	0
+	+	12	0
+	+	47	0
+	+	29	0
+	+	30	0
+	+	48	0
+	+	20	0
+	+	52	49
+	+	1	76
+	+	2	0
+	+	10	0
+	+	23	0
+	+	27	42
+	+	28	0
+	+	33	75
+	+	42	66
+	+	40	7
+	+	43	62
+	+	45	0
+	a	56	20
+
+> ~/ControlP
+	*	1619394311	0
+	"	1	0
+
+> ~/chehalis_railcam/data/health.csv
+	*	1619323354	0
+	"	1	0
+	^	1	1
+	.	1	1
+	+	39	3
+	+	1	1
+
+> ~/chehalis_railcam/data/so_data.csv
+	*	1619319242	0
+	"	9	29
+	^	9	30
+	.	9	30
+	+	9	30
+
+> ~/chehalis_railcam/data/wdbc.names
+	*	1619314622	0
+	"	1	0
+	^	1	138
+	.	1	139
+	+	1	0
+	+	2	0
+	+	2	13
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	139
+
+> ~/you_tube_live_chat/yt_live_chat_log.py
+	*	1618459648	0
+	"	54	0
+	^	51	50
+	.	32	0
+	+	73	38
+	+	27	0
+	+	7	0
+	+	75	4
+	+	76	16
+	+	75	3
+	+	7	0
+	+	27	0
+	+	46	0
+	+	28	0
+	+	26	19
+	+	51	53
+	+	54	54
+	+	47	15
+	+	48	24
+	+	49	25
+	+	51	46
+	+	9	0
+	+	23	0
+	+	46	0
+	+	23	0
+	+	52	93
+	+	23	0
+	+	48	0
+	+	49	15
+	+	54	0
+	+	59	0
+	+	54	61
+	+	23	0
+	+	52	0
+	+	54	0
+	+	23	0
+	+	54	0
+	+	55	0
+	+	23	0
+	+	55	60
+	+	23	0
+	+	71	0
+	+	21	40
+	+	58	0
+	+	55	0
+	+	58	0
+	+	58	11
+	+	58	41
+	+	58	26
+	+	58	45
+	+	55	0
+	+	58	0
+	+	55	58
+	+	14	22
+	+	19	27
+	+	45	0
+	+	39	0
+	+	45	0
+	+	38	64
+	+	46	0
+	+	52	11
+	+	53	0
+	+	57	15
+	+	46	22
+	+	46	43
+	+	46	0
+	+	62	15
+	+	62	0
+	+	63	26
+	+	71	0
+	+	62	0
+	+	64	0
+	+	62	0
+	+	71	0
+	+	67	0
+	+	61	0
+	+	64	0
+	+	65	0
+	+	68	0
+	+	70	0
+	+	16	8
+	+	63	0
+	+	19	16
+	+	52	0
+	+	48	0
+	+	45	28
+	+	46	0
+	+	23	0
+	+	40	23
+	+	33	0
+	+	2	34
+	+	3	1
+	+	43	16
+	+	44	0
+	+	52	0
+	+	31	8
+	+	33	0
+	+	35	22
+	+	36	11
+	+	37	0
+	+	50	69
+	+	51	49
+	+	31	0
+	+	32	0
+
+> ~/you_tube_live_chat/.gitignore
+	*	1618459444	0
+	"	1	0
+	^	6	0
+	.	5	11
+	+	3	10
+	+	2	0
+	+	5	11
+
+> ~/sqlalchemy_ex/somethingelse.py
+	*	1618456535	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	28
+	+	5	0
+	+	13	0
+	+	1	36
+	+	13	0
+	+	1	26
+	+	6	0
+	+	13	0
+	+	14	0
+	+	8	0
+	+	7	0
+	+	12	0
+	+	1	28
+	+	2	32
+	+	1	33
+	+	3	35
+	+	4	38
+	+	1	10
+
+> ~/famt/shatzer/rowan.txt
+	*	1618292781	0
+	"	12	239
+	^	12	240
+	.	12	240
+	+	14	92
+	+	15	0
+	+	14	93
+	+	12	240
+
+> ~/famt/shatzer/dad.txt
+	*	1618292473	0
+	"	1	0
+	.	1	0
+	+	1	15
+	+	1	22
+	+	1	15
+	+	1	38
+	+	1	16
+	+	1	15
+	+	1	29
+	+	1	0
+	+	2	473
+	+	4	0
+	+	1	0
+
+> ~/cleanup.rb
+	*	1618285437	0
+	"	9	4
+	^	9	5
+	.	9	4
+	+	1	22
+	+	1	2
+	+	1	0
+	+	1	18
+	+	1	0
+	+	3	0
+	+	4	14
+	+	10	0
+	+	1	0
+	+	13	0
+	+	11	0
+	+	6	27
+	+	4	28
+	+	9	4
+
+> ~/Surf_Alerts/surfspots.json
+	*	1617579771	0
+	"	1	0
+
+> ~/Surf_Alerts/reports.py
+	*	1617522745	0
+	"	50	20
+	^	19	21
+	.	19	20
+	+	8	7
+	+	15	24
+	+	6	0
+	+	8	12
+	+	10	21
+	+	11	52
+	+	11	67
+	+	11	91
+	+	15	24
+	+	11	17
+	+	11	54
+	+	15	79
+	+	15	0
+	+	14	0
+	+	11	0
+	+	15	79
+	+	15	24
+	+	15	128
+	+	15	24
+	+	16	114
+	+	16	106
+	+	16	0
+	+	17	58
+	+	17	0
+	+	16	0
+	+	20	10
+	+	22	0
+	+	13	22
+	+	22	34
+	+	27	27
+	+	18	0
+	+	27	28
+	+	29	26
+	+	29	27
+	+	30	0
+	+	29	25
+	+	30	21
+	+	30	22
+	+	31	0
+	+	6	30
+	+	30	23
+	+	31	59
+	+	11	0
+	+	32	59
+	+	34	28
+	+	37	38
+	+	41	21
+	+	28	20
+	+	29	0
+	+	28	30
+	+	38	26
+	+	41	13
+	+	9	22
+	+	19	17
+	+	35	27
+	+	34	44
+	+	35	20
+	+	34	30
+	+	35	0
+	+	22	0
+	+	26	55
+	+	29	30
+	+	41	14
+	+	4	28
+	+	39	10
+	+	41	0
+	+	30	47
+	+	28	54
+	+	41	4
+	+	46	28
+	+	47	43
+	+	46	40
+	+	50	51
+	+	41	54
+	+	45	0
+	+	40	0
+	+	19	17
+	+	46	28
+	+	49	30
+	+	2	10
+	+	19	20
+	+	12	14
+	+	13	14
+	+	12	3
+	+	22	0
+	+	13	11
+	+	37	28
+	+	38	0
+	+	37	28
+	+	43	44
+	+	42	0
+	+	33	0
+	+	19	17
+	+	22	0
+	+	19	20
+
+> ~/Surf_Alerts/regions.py
+	*	1617516324	0
+	"	7	41
+	^	7	42
+	.	7	41
+	+	12	30
+	+	8	29
+	+	9	29
+	+	15	42
+	+	11	31
+	+	14	35
+	+	1	12
+	+	4	7
+	+	2	41
+	+	3	16
+	+	4	0
+	+	3	7
+	+	1	9
+	+	6	20
+	+	7	41
+
+> ~/Surf_Alerts/surf.py
+	*	1617508981	0
+	"	1	0
+
+> ~/Surf_Alerts/.gitignore
+	*	1617506909	0
+	"	2	0
+	^	2	0
+	.	1	6
+	+	1	6
+
+> ~/argparse_test/integer.py
+	*	1617343012	0
+	"	23	20
+	^	23	21
+	.	23	21
+	+	3	66
+	+	4	62
+	+	9	0
+	+	4	0
+	+	5	0
+	+	4	0
+	+	8	56
+	+	7	25
+	+	15	52
+	+	17	34
+	+	4	0
+	+	18	53
+	+	21	58
+	+	22	27
+	+	23	21
+
+> ~/famt/shatzer/recentering.txt
+	*	1617077834	0
+	"	1	0
+	^	1	27
+	.	1	0
+	+	11	0
+	+	7	58
+	+	10	52
+	+	9	8
+	+	15	41
+	+	11	0
+	+	13	0
+	+	11	56
+	+	15	0
+	+	18	45
+	+	12	157
+	+	1	1
+	+	1	0
+
+> ~/famt/shatzer/things_to_bring_up.txt
+	*	1617077217	0
+	"	4	0
+	^	4	0
+	.	4	0
+	+	15	144
+	+	16	0
+	+	9	2
+	+	8	136
+	+	10	0
+	+	9	0
+	+	13	5
+	+	16	1
+	+	5	0
+	+	4	0
+
+> ~/you_tube_live_chat/models.py
+	*	1616995595	0
+	"	19	0
+	.	19	0
+	+	12	23
+	+	19	0
+	+	22	0
+	+	19	0
+	+	22	26
+	+	19	0
+	+	22	0
+	+	19	127
+	+	19	0
+	+	23	0
+	+	22	0
+	+	19	0
+	+	19	11
+	+	19	0
+
+> ~/you_tube_live_chat/driver.py
+	*	1616992269	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	4	0
+	+	1	0
+	+	3	0
+
+> ~/you_tube_live_chat/README.md
+	*	1616966569	0
+	"	3	90
+	^	30	0
+	.	3	90
+	+	6	3
+	+	8	0
+	+	7	1
+	+	8	0
+	+	14	0
+	+	8	0
+	+	20	18
+	+	3	347
+	+	2	0
+	+	31	46
+	+	27	13
+	+	29	37
+	+	27	7
+	+	19	11
+	+	20	32
+	+	21	55
+	+	3	1
+	+	3	90
+	+	3	235
+	+	25	0
+	+	27	0
+	+	29	0
+	+	31	0
+	+	25	1
+	+	3	156
+	+	27	1
+	+	26	0
+	+	28	0
+	+	30	0
+	+	3	90
+
+> ~/sqlalchemy_ex/app.py
+	*	1616955880	0
+	"	4	0
+	^	2	83
+	.	4	0
+	+	17	0
+	+	3	55
+	+	9	0
+	+	2	62
+	+	12	44
+	+	8	9
+	+	12	26
+	+	17	36
+	+	8	0
+	+	4	54
+	+	17	33
+	+	17	14
+	+	4	53
+	+	17	21
+	+	17	0
+	+	17	16
+	+	7	13
+	+	5	0
+	+	17	38
+	+	7	13
+	+	17	0
+	+	17	32
+	+	17	31
+	+	17	0
+	+	4	39
+	+	5	0
+	+	4	0
+	+	17	0
+	+	17	8
+	+	17	1
+	+	17	4
+	+	17	0
+	+	17	72
+	+	17	0
+	+	7	16
+	+	8	16
+	+	9	28
+	+	12	40
+	+	13	56
+	+	15	20
+	+	15	0
+	+	1	28
+	+	17	0
+	+	12	0
+	+	14	35
+	+	17	17
+	+	17	0
+	+	17	28
+	+	17	27
+	+	15	25
+	+	2	82
+	+	17	0
+	+	4	0
+	+	7	0
+	+	6	0
+	+	17	0
+	+	6	0
+	+	17	0
+	+	2	22
+	+	4	0
+
+> ~/Flask_blog/flaskblog/__init__.py
+	*	1616955051	0
+	"	1	0
+	^	33	33
+	.	33	32
+	+	5	27
+	+	15	47
+	+	15	0
+	+	17	0
+	+	15	29
+	+	15	0
+	+	17	0
+	+	15	32
+	+	1	8
+	+	15	55
+	+	15	14
+	+	26	0
+	+	23	0
+	+	24	0
+	+	23	0
+	+	24	0
+	+	23	0
+	+	19	0
+	+	23	0
+	+	24	0
+	+	20	0
+	+	24	0
+	+	13	33
+	+	10	0
+	+	15	0
+	+	6	35
+	+	9	28
+	+	1	0
+	+	29	33
+	+	36	0
+	+	33	32
+
+> ~/Flask_blog/flaskblog/models.py
+	*	1616954825	0
+	"	1	0
+	^	7	0
+	.	6	0
+	+	2	70
+	+	3	0
+	+	2	0
+	+	3	0
+	+	1	0
+	+	3	44
+	+	23	56
+	+	23	0
+	+	33	0
+	+	27	44
+	+	29	44
+	+	32	36
+	+	25	16
+	+	21	22
+	+	27	37
+	+	27	42
+	+	27	40
+	+	27	0
+	+	29	0
+	+	27	0
+	+	3	39
+	+	22	30
+	+	27	30
+	+	6	0
+
+> ~/you_tube_live_chat/sb1
+	*	1616893806	0
+	"	1	0
+
+> ~/.tmux.conf
+	*	1616886417	0
+	"	1	0
+	^	25	60
+	.	2	0
+	+	15	0
+	+	7	11
+	+	8	11
+	+	9	11
+	+	9	13
+	+	9	12
+	+	9	10
+	+	9	13
+	+	7	29
+	+	8	32
+	+	19	0
+	+	9	0
+	+	33	64
+	+	34	42
+	+	33	44
+	+	21	0
+	+	25	88
+	+	25	27
+	+	25	0
+	+	2	0
+
+> ~/famt/shatzer/jenny_john_affirmation.txt
+	*	1616476081	0
+	"	4	0
+	^	28	0
+	.	29	0
+	+	7	16
+	+	5	71
+	+	8	0
+	+	16	0
+	+	5	0
+	+	9	20
+	+	9	22
+	+	7	12
+	+	9	20
+	+	10	0
+	+	26	7
+	+	23	14
+	+	29	0
+
+> ~/graph_test/graph.py
+	*	1615877424	0
+	"	93	8
+	^	72	26
+	.	82	0
+	+	95	40
+	+	72	25
+	+	73	0
+	+	82	0
+
+> ~/doit_test/dodo.py
+	*	1615763755	0
+	"	1	0
+	^	29	39
+	.	29	38
+	+	9	102
+	+	6	8
+	+	9	48
+	+	11	0
+	+	9	59
+	+	5	39
+	+	7	65
+	+	8	25
+	+	9	0
+	+	8	49
+	+	9	48
+	+	11	0
+	+	9	0
+	+	22	24
+	+	2	17
+	+	25	55
+	+	27	50
+	+	29	38
+
+> ~/famt/shatzer/shatzer_letter.txt
+	*	1615276172	0
+	"	1	0
+	^	13	0
+	.	13	0
+	+	3	144
+	+	6	20
+	+	5	2
+	+	13	0
+
+> ~/famt/shatzer/diego
+	*	1615276171	0
+	"	1	0
+	^	2	0
+	.	2	0
+	+	13	28
+	+	13	29
+	+	20	0
+	+	26	246
+	+	34	3
+	+	27	66
+	+	31	163
+	+	31	50
+	+	37	446
+	+	41	0
+	+	1	0
+	+	7	0
+	+	6	0
+	+	2	0
+
+> /usr/share/vim/vim82/doc/windows.txt
+	*	1615267104	0
+	"	298	34
+
+> ~/famt/shatzer/sb9
+	*	1615267044	0
+	"	1	0
+
+> ~/Flask_blog/flaskblog/templates/2
+	*	1615165370	0
+	"	1	0
+
+> ~/Flask_blog/flaskblog/errors/handlers.py
+	*	1615165233	0
+	"	14	4
+	^	12	0
+	.	12	0
+	+	1	0
+	+	3	0
+	+	6	25
+	+	1	27
+	+	1	28
+	+	7	0
+	+	6	49
+	+	8	0
+	+	11	0
+	+	8	0
+	+	10	0
+	+	12	0
+
+> ~/Flask_blog/flaskblog/templates/errors/403.html
+	*	1615164947	0
+	"	4	8
+	^	3	31
+	.	4	0
+	+	1	25
+	+	2	16
+	+	7	5
+	+	7	0
+	+	3	9
+	+	6	4
+	+	4	33
+	+	5	64
+	+	3	30
+	+	4	0
+
+> ~/Flask_blog/flaskblog/templates/errors/404.html
+	*	1615164945	0
+	"	5	49
+	^	5	50
+	.	5	49
+	+	1	0
+	+	4	52
+	+	5	49
+
+> ~/Flask_blog/flaskblog/templates/errors/500.html
+	*	1615164936	0
+	"	6	90
+	^	6	91
+	.	6	90
+	+	2	0
+	+	5	37
+	+	6	90
+
+> ~/Flask_blog/flaskblog/main/routes.py
+	*	1615061444	0
+	"	13	0
+	.	1	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	1	0
+	+	3	0
+	+	1	0
+
+> ~/vimgolf/working_challenges.py
+	*	1614580884	0
+	"	21	24
+	^	21	25
+	.	21	24
+	+	1	19
+	+	1	14
+	+	3	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	3	26
+	+	3	29
+	+	3	0
+	+	3	19
+	+	3	7
+	+	7	0
+	+	3	0
+	+	7	0
+	+	3	0
+	+	7	0
+	+	4	0
+	+	6	14
+	+	12	28
+	+	3	39
+	+	3	0
+	+	13	0
+	+	15	0
+	+	14	0
+	+	21	24
+
+> ~/some.txt
+	*	1614565793	0
+	"	10	0
+	^	10	47
+	.	1	0
+	+	1	13
+	+	1	3
+	+	1	11
+	+	1	13
+	+	1	20
+	+	1	10
+	+	1	0
+	+	1	15
+	+	1	17
+	+	1	24
+	+	1	15
+	+	1	0
+	+	1	17
+	+	1	22
+	+	2	12
+	+	2	3
+	+	1	0
+	+	2	0
+	+	10	47
+	+	1	0
+
+> ~/sometext.txt
+	*	1614561913	0
+	"	1	0
+	^	1	10
+	.	1	9
+	+	1	9
+
+> ~/hey.txt
+	*	1614561874	0
+	"	1	0
+	^	1	12
+	.	1	11
+	+	1	11
+
+> ~/testy
+	*	1614474132	0
+	"	1	11
+	^	1	12
+	.	1	12
+	+	1	12
+
+> ~/.vimrc
+	*	1614474100	0
+	"	65	43
+	^	65	44
+	.	65	44
+	+	63	2
+	+	64	0
+	+	65	44
+
+> ~/.vim/.vimrc
+	*	1614474017	0
+	"	1	0
 
 > ~/david_b/baseball_simulation/text-adventure.cpp
 	*	1614275694	0
@@ -536,36 +1919,6 @@ $main
 	+	1	98
 	+	2	21
 	+	1	86
-
-> ~/Flask_blog/flaskblog/models.py
-	*	1613980444	0
-	"	1	0
-	^	7	0
-	.	6	0
-	+	2	70
-	+	3	0
-	+	2	0
-	+	3	0
-	+	1	0
-	+	3	44
-	+	23	56
-	+	23	0
-	+	33	0
-	+	27	44
-	+	29	44
-	+	32	36
-	+	25	16
-	+	21	22
-	+	27	37
-	+	27	42
-	+	27	40
-	+	27	0
-	+	29	0
-	+	27	0
-	+	3	39
-	+	22	30
-	+	27	30
-	+	6	0
 
 > ~/Flask_blog/flaskblog/users/utils.py
 	*	1613980437	0
@@ -608,49 +1961,6 @@ $main
 	+	6	68
 	+	2	0
 
-> ~/Flask_blog/flaskblog/__init__.py
-	*	1613979185	0
-	"	1	0
-	^	9	29
-	.	1	0
-	+	5	27
-	+	15	47
-	+	15	0
-	+	17	0
-	+	15	29
-	+	15	0
-	+	17	0
-	+	15	32
-	+	1	8
-	+	15	55
-	+	15	14
-	+	26	0
-	+	23	0
-	+	24	0
-	+	23	0
-	+	24	0
-	+	23	0
-	+	19	0
-	+	23	0
-	+	24	0
-	+	20	0
-	+	24	0
-	+	13	33
-	+	10	0
-	+	15	0
-	+	6	35
-	+	9	28
-	+	1	0
-
-> ~/.bash_profile
-	*	1613978765	0
-	"	1	0
-	^	1	7
-	.	2	0
-	+	4	4
-	+	1	6
-	+	2	0
-
 > ~/Flask_blog/flaskblog/posts/routes.py
 	*	1613977294	0
 	"	18	5
@@ -675,18 +1985,6 @@ $main
 	+	21	0
 	+	5	33
 	+	6	24
-
-> ~/Flask_blog/flaskblog/main/routes.py
-	*	1613977069	0
-	"	1	0
-	.	1	0
-	+	3	0
-	+	4	0
-	+	5	0
-	+	6	0
-	+	1	0
-	+	3	0
-	+	1	0
 
 > ~/Flask_blog/flaskblog/users/forms.py
 	*	1613977005	0
@@ -859,1082 +2157,3 @@ $main
 > ~/Flask_blog/flaskblog/sb forms.py
 	*	1613963202	0
 	"	1	0
-
-> ~/Flask_blog/flaskblog/posts/forms.py
-	*	1613963181	0
-	"	3	0
-	^	4	0
-	.	3	43
-	+	5	0
-	+	1	0
-	+	4	0
-	+	5	0
-	+	2	45
-	+	3	43
-
-> ~/Flask_blog/flaskblog/routes.py
-	*	1613962943	0
-	"	7	0
-	.	11	0
-	+	11	0
-	+	11	29
-	+	11	49
-	+	11	4
-	+	11	28
-	+	2	13
-	+	11	0
-	+	1	8
-	+	11	0
-	+	11	4
-	+	11	74
-	+	11	20
-	+	3	20
-	+	11	28
-	+	11	4
-	+	11	44
-	+	11	23
-	+	11	26
-	+	11	30
-	+	11	0
-	+	7	121
-	+	7	77
-	+	8	0
-	+	11	50
-	+	11	0
-	+	11	18
-	+	11	79
-	+	11	0
-	+	11	23
-	+	11	34
-	+	11	14
-	+	11	41
-	+	11	60
-	+	11	47
-	+	11	0
-	+	11	29
-	+	11	38
-	+	11	0
-	+	11	7
-	+	11	3
-	+	11	85
-	+	11	0
-	+	11	37
-	+	11	0
-	+	11	3
-	+	8	53
-	+	11	8
-	+	5	42
-	+	10	29
-	+	11	0
-	+	11	12
-	+	11	44
-	+	11	39
-	+	11	10
-	+	11	94
-	+	11	0
-	+	11	38
-	+	11	44
-	+	11	40
-	+	11	41
-	+	11	39
-	+	11	16
-	+	11	23
-	+	11	36
-	+	11	0
-
-> ~/Flask_blog/models.py
-	*	1613864319	0
-	"	3	43
-	^	3	44
-	.	3	43
-	+	9	0
-	+	9	70
-	+	9	0
-	+	9	70
-	+	9	0
-	+	2	70
-	+	9	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	3	39
-	+	8	37
-	+	3	43
-
-> ~/demo/.gitignore
-	*	1613861043	0
-	"	2	0
-	^	2	1
-	.	2	0
-	+	1	6
-	+	2	0
-
-> ~/temp
-	*	1613331889	0
-	"	24	0
-	^	24	1
-	.	24	0
-	+	2	0
-	+	24	0
-
-> ~/.tmux.conf
-	*	1613330981	0
-	"	30	0
-	^	30	42
-	.	29	44
-	+	15	0
-	+	7	11
-	+	8	11
-	+	9	11
-	+	9	13
-	+	9	12
-	+	9	10
-	+	9	13
-	+	7	29
-	+	8	32
-	+	19	0
-	+	9	0
-	+	29	64
-	+	30	42
-	+	29	44
-
-> ~/famt/shatzer/diego
-	*	1613083257	0
-	"	41	0
-	^	41	0
-	.	5	0
-	+	12	28
-	+	12	29
-	+	19	0
-	+	25	246
-	+	33	3
-	+	26	66
-	+	30	163
-	+	30	50
-	+	36	446
-	+	40	0
-	+	1	0
-	+	6	0
-	+	5	0
-
-> ~/Flask_blog/flaskblog.py
-	*	1612668504	0
-	"	83	0
-
-> ~/alex_projects/Craigslist/.gitignore
-	*	1612664593	0
-	"	1	0
-	^	3	4
-	.	1	0
-	+	3	3
-	+	1	0
-
-> ~/alex_projects/Craigslist/venv/bin/activate
-	*	1612664337	0
-	"	76	0
-
-> ~/alex_projects/Craigslist/sqlite.py
-	*	1612663317	0
-	"	76	0
-	^	69	147
-	.	69	146
-	+	35	0
-	+	2	10
-	+	23	3
-	+	37	18
-	+	22	0
-	+	46	40
-	+	69	0
-	+	46	39
-	+	68	0
-	+	69	85
-	+	69	0
-	+	69	140
-	+	69	0
-	+	69	135
-	+	70	0
-	+	69	146
-
-> ~/alex_projects/Craigslist/model.py
-	*	1612663022	0
-	"	1	0
-	^	5	0
-	.	4	0
-	+	3	0
-	+	1	0
-	+	1	43
-	+	4	27
-	+	12	0
-	+	11	0
-	+	17	0
-	+	16	0
-	+	15	0
-	+	6	0
-	+	5	0
-	+	6	0
-	+	4	0
-
-> ~/alex_projects/Craigslist/patty.py
-	*	1612659369	0
-	"	1	0
-
-> ~/home_automation/config/config.go
-	*	1612328320	0
-	"	14	16
-	^	14	17
-	.	14	16
-	+	4	28
-	+	9	16
-	+	14	16
-
-> ~/home_automation/config/domain/config.go
-	*	1612328270	0
-	"	13	48
-	^	13	49
-	.	13	48
-	+	5	32
-	+	15	0
-	+	10	13
-	+	15	19
-	+	3	70
-	+	8	69
-	+	13	48
-
-> ~/python_home_automation/requirements.txt
-	*	1612325842	0
-	"	2	19
-	^	2	20
-	.	2	19
-	+	3	8
-	+	3	0
-	+	4	0
-	+	2	19
-
-> ~/python_home_automation/device_registry/__init__.py
-	*	1612325697	0
-	"	85	52
-	^	85	53
-	.	85	52
-	+	16	0
-	+	1	0
-	+	6	28
-	+	23	12
-	+	25	32
-	+	28	29
-	+	3	0
-	+	2	9
-	+	31	39
-	+	3	15
-	+	1	0
-	+	2	0
-	+	7	0
-	+	15	0
-	+	22	0
-	+	11	60
-	+	4	13
-	+	11	61
-	+	33	0
-	+	21	0
-	+	39	8
-	+	11	38
-	+	13	49
-	+	8	0
-	+	43	35
-	+	45	52
-	+	51	55
-	+	52	0
-	+	53	0
-	+	54	0
-	+	52	32
-	+	53	39
-	+	54	46
-	+	62	65
-	+	45	58
-	+	84	37
-	+	84	0
-	+	72	73
-	+	75	13
-	+	81	27
-	+	82	15
-	+	82	21
-	+	85	52
-
-> ~/famt/shatzer/Elizabeth.txt
-	*	1612249563	0
-	"	13	79
-	^	13	80
-	.	13	80
-	+	13	80
-
-> ~/twilio_python/send.py
-	*	1612163214	0
-	"	15	0
-	^	12	26
-	.	12	25
-	+	4	43
-	+	5	41
-	+	14	24
-	+	15	16
-	+	9	26
-	+	14	0
-	+	6	22
-	+	14	15
-	+	11	18
-	+	14	25
-	+	9	50
-	+	10	43
-	+	14	26
-	+	10	77
-	+	14	0
-	+	15	0
-	+	12	0
-	+	13	9
-	+	12	25
-
-> ~/python_home_automation/README.md
-	*	1612155732	0
-	"	98	0
-	^	98	29
-	.	98	28
-	+	7	1
-	+	10	0
-	+	26	1
-	+	32	1
-	+	32	3
-	+	41	0
-	+	32	1
-	+	27	0
-	+	31	44
-	+	39	0
-	+	33	0
-	+	34	32
-	+	35	29
-	+	36	26
-	+	37	41
-	+	43	28
-	+	54	75
-	+	60	26
-	+	63	1
-	+	69	1
-	+	64	0
-	+	69	5
-	+	64	0
-	+	63	0
-	+	69	1
-	+	70	0
-	+	73	24
-	+	87	0
-	+	88	0
-	+	81	0
-	+	98	28
-
-> ~/python_home_automation/docker-compose.yml
-	*	1612150051	0
-	"	9	7
-	^	9	8
-	.	9	7
-	+	7	21
-	+	9	7
-
-> ~/python_home_automation/Dockerfile
-	*	1612149985	0
-	"	4	0
-	^	10	24
-	.	10	23
-	+	10	23
-
-> ~/python_home_automation/device_registry/sb 1
-	*	1612149756	0
-	"	1	0
-
-> ~/python_home_automation/run.py
-	*	1612149574	0
-	"	3	42
-	^	3	43
-	.	3	42
-	+	1	31
-	+	3	42
-
-> ~/twilio_python/app.py
-	*	1612069385	0
-	"	1	0
-	.	26	0
-	+	1	0
-	+	2	0
-	+	30	0
-	+	8	0
-	+	10	0
-	+	15	80
-	+	18	0
-	+	12	0
-	+	13	0
-	+	15	0
-	+	18	0
-	+	19	0
-	+	21	0
-	+	16	24
-	+	17	0
-	+	31	0
-	+	8	0
-	+	9	3
-	+	28	0
-	+	29	0
-	+	21	0
-	+	24	35
-	+	26	17
-	+	13	25
-	+	2	69
-	+	13	10
-	+	14	0
-	+	26	0
-
-> ~/famt/shatzer/things_to_bring_up.txt
-	*	1612041279	0
-	"	7	4
-	^	7	5
-	.	7	5
-	+	9	144
-	+	10	0
-	+	3	2
-	+	2	136
-	+	4	0
-	+	3	0
-	+	7	5
-
-> ~/test_cpp/something.cpp
-	*	1611256742	0
-	"	1	13
-	^	1	14
-	.	1	13
-	+	1	13
-
-> ~/somefile.cpp
-	*	1611256202	0
-	"	3	0
-	^	3	0
-	.	2	0
-	+	2	0
-
-> ~/.bashrc
-	*	1611129293	0
-	"	24	1
-	^	24	2
-	.	24	1
-	+	1	0
-	+	1	42
-	+	1	0
-	+	2	0
-	+	109	1
-	+	7	0
-	+	8	18
-	+	14	14
-	+	9	25
-	+	16	19
-	+	7	18
-	+	16	13
-	+	7	29
-	+	16	23
-	+	11	0
-	+	10	23
-	+	25	0
-	+	24	80
-	+	25	0
-	+	23	22
-	+	23	0
-	+	24	0
-	+	25	11
-	+	23	0
-	+	25	0
-	+	24	1
-
-> ~/ide
-	*	1611126615	0
-	"	4	26
-	^	4	27
-	.	4	26
-	+	4	26
-	+	2	26
-	+	3	26
-	+	4	26
-
-> ~/ControlP
-	*	1611126615	0
-	"	1	0
-
-> ~/important_file.txt
-	*	1611110746	0
-	"	1	28
-	^	1	29
-	.	1	28
-	+	1	28
-
-> ~/Downloads/ioc.txt
-	*	1611033008	0
-	"	327	455
-
-> ~/click_div/clickd.js
-	*	1611022234	0
-	"	6	0
-	^	12	13
-	.	2	0
-	+	1	38
-	+	14	1
-	+	14	0
-	+	3	0
-	+	5	15
-	+	10	30
-	+	7	3
-	+	12	21
-	+	2	1
-	+	7	28
-	+	10	2
-	+	7	2
-	+	4	46
-	+	10	41
-	+	8	28
-	+	12	12
-	+	2	0
-
-> ~/elizabeth/classes/CS261/Assignment_1/assignment1.py
-	*	1610950641	0
-	"	215	44
-	^	215	45
-	.	215	44
-	+	161	0
-	+	172	8
-	+	143	20
-	+	161	11
-	+	172	20
-	+	172	14
-	+	175	8
-	+	175	10
-	+	175	0
-	+	173	0
-	+	150	0
-	+	151	14
-	+	151	7
-	+	161	0
-	+	150	74
-	+	150	44
-	+	151	0
-	+	151	10
-	+	151	0
-	+	150	20
-	+	144	4
-	+	161	0
-	+	147	21
-	+	151	17
-	+	161	0
-	+	144	0
-	+	172	37
-	+	147	15
-	+	151	78
-	+	172	98
-	+	172	22
-	+	147	26
-	+	151	0
-	+	151	44
-	+	151	0
-	+	162	0
-	+	172	0
-	+	169	48
-	+	171	0
-	+	169	12
-	+	170	36
-	+	172	16
-	+	162	27
-	+	163	0
-	+	169	21
-	+	147	27
-	+	156	23
-	+	146	68
-	+	148	54
-	+	149	62
-	+	156	0
-	+	154	29
-	+	160	67
-	+	168	60
-	+	126	36
-	+	140	23
-	+	121	13
-	+	128	0
-	+	130	0
-	+	133	0
-	+	131	0
-	+	142	13
-	+	132	8
-	+	121	13
-	+	200	18
-	+	200	8
-	+	200	25
-	+	200	22
-	+	208	16
-	+	208	0
-	+	201	19
-	+	201	20
-	+	204	0
-	+	201	0
-	+	201	3
-	+	203	30
-	+	201	0
-	+	202	32
-	+	203	0
-	+	204	24
-	+	207	27
-	+	210	29
-	+	215	35
-	+	216	27
-	+	204	19
-	+	202	0
-	+	203	34
-	+	215	45
-	+	204	0
-	+	213	0
-	+	218	0
-	+	204	0
-	+	206	36
-	+	202	25
-	+	206	32
-	+	218	0
-	+	215	44
-
-> ~/elizabeth/classes/CS261/Assignment_1/testit.py
-	*	1610947005	0
-	"	60	0
-	^	59	4
-	.	60	8
-	+	16	22
-	+	16	13
-	+	16	21
-	+	21	0
-	+	5	15
-	+	8	0
-	+	4	11
-	+	5	0
-	+	9	19
-	+	14	0
-	+	16	0
-	+	10	0
-	+	14	13
-	+	22	8
-	+	32	9
-	+	21	0
-	+	32	0
-	+	20	49
-	+	16	0
-	+	20	21
-	+	33	0
-	+	34	0
-	+	35	0
-	+	39	20
-	+	62	10
-	+	2	0
-	+	32	9
-	+	62	0
-	+	41	8
-	+	51	0
-	+	57	28
-	+	59	4
-	+	62	0
-	+	60	0
-	+	61	0
-	+	62	8
-	+	60	8
-
-> ~/elizabeth/classes/CS261/Assignment_1/a1_include.py
-	*	1610947001	0
-	"	10	3
-
-> ~/.wikidates/April_05
-	*	1610913543	0
-	"	1	0
-
-> ~/.wikidates/April_04
-	*	1610913526	0
-	"	1	0
-
-> ~/.wikidates/April_03
-	*	1610913518	0
-	"	1	0
-
-> ~/elizabeth/classes/CS261/Assignment_1/ControlP
-	*	1610858627	0
-	"	10	0
-	.	2	0
-	+	2	0
-
-> ~/famt/conner/careert
-	*	1610836290	0
-	"	32	24
-	^	32	25
-	.	32	24
-	+	3	38
-	+	2	16
-	+	8	0
-	+	6	2
-	+	19	9
-	+	16	32
-	+	30	1
-	+	27	15
-	+	32	24
-
-> ~/famt/conner/sql
-	*	1610836286	0
-	"	8	0
-	^	8	0
-	.	7	0
-	+	1	27
-	+	9	0
-	+	1	6
-	+	9	114
-	+	11	5
-	+	9	5
-	+	11	0
-	+	9	11
-	+	11	8
-	+	13	27
-	+	15	0
-	+	5	0
-	+	1	18
-	+	5	0
-	+	3	20
-	+	5	34
-	+	7	0
-
-> ~/famt/shatzer/shatzer_letter.txt
-	*	1610440509	0
-	"	13	0
-	^	13	0
-	.	13	0
-	+	3	144
-	+	6	20
-	+	5	2
-	+	13	0
-
-> ~/famt/shatzer/rowan.txt
-	*	1610437263	0
-	"	2	0
-	^	10	61
-	.	10	60
-	+	6	0
-	+	4	0
-	+	8	56
-	+	5	9
-	+	10	60
-
-> ~/famt/shatzer/jenny_john_affirmation.txt
-	*	1610434451	0
-	"	28	0
-	^	28	0
-	.	29	0
-	+	7	16
-	+	5	71
-	+	8	0
-	+	16	0
-	+	5	0
-	+	9	20
-	+	9	22
-	+	7	12
-	+	9	20
-	+	10	0
-	+	26	7
-	+	23	14
-	+	29	0
-
-> ~/famt/shatzer/recentering.txt
-	*	1610430480	0
-	"	1	1
-	.	1	0
-	+	11	0
-	+	7	58
-	+	10	52
-	+	9	8
-	+	15	41
-	+	11	0
-	+	13	0
-	+	11	56
-	+	15	0
-	+	18	45
-	+	12	157
-	+	1	1
-	+	1	0
-
-> ~/famt/shatzer/lindsley.txt
-	*	1610429958	0
-	"	1	0
-
-> ~/famt/shatzer/typing_games
-	*	1610429459	0
-	"	3	0
-	^	3	0
-	.	2	20
-	+	2	20
-
-> ~/click_div/buttons.html
-	*	1610237638	0
-	"	9	28
-	^	10	48
-	.	10	0
-	+	1	0
-	+	8	22
-	+	13	17
-	+	8	35
-	+	9	0
-	+	13	14
-	+	14	0
-	+	10	0
-	+	10	37
-	+	11	37
-	+	12	37
-	+	13	0
-	+	11	0
-	+	15	8
-	+	15	0
-	+	16	20
-	+	10	52
-	+	9	39
-	+	11	0
-	+	10	0
-
-> ~/click_div/clicker.js
-	*	1610237221	0
-	"	6	0
-	^	4	19
-	.	4	18
-	+	1	38
-	+	2	45
-	+	6	19
-	+	9	6
-	+	4	18
-
-> ~/click_div/sb 1
-	*	1610215897	0
-	"	1	0
-
-> ~/click_div/sb1
-	*	1610215882	0
-	"	1	0
-
-> ~/click_div/b1
-	*	1610215835	0
-	"	1	0
-
-> /tmp/bash-fc-91385531
-	*	1609913659	0
-	"	1	44
-	.	1	46
-	+	1	46
-
-> ~/.wikidates/April_06
-	*	1609912837	0
-	"	64	160
-
-> ~/.wikidates/April_02
-	*	1609912719	0
-	"	1	0
-
-> ~/.wikidates/April_01
-	*	1609912709	0
-	"	1	0
-
-> ~/dates.sh
-	*	1609912188	0
-	"	2	0
-	^	2	0
-	.	1	10
-	+	8	3
-	+	7	60
-	+	1	10
-
-> ~/.wikidates/April_09
-	*	1609911967	0
-	"	1	0
-
-> ~/.wikidates/April_08
-	*	1609911963	0
-	"	1	0
-
-> ~/.wikidates/April_07
-	*	1609911925	0
-	"	1	0
-
-> /tmp/bash-fc-6413151423
-	*	1609911461	0
-	"	5	147
-	^	5	148
-	.	5	147
-	+	2	33
-	+	1	22
-	+	4	0
-	+	5	0
-	+	5	147
-
-> /tmp/bash-fc-2625531676
-	*	1609911249	0
-	"	5	3
-	^	5	4
-	.	5	3
-	+	4	0
-	+	3	41
-	+	4	138
-	+	2	12
-	+	5	3
-
-> /tmp/bash-fc-1537076829
-	*	1609910839	0
-	"	4	136
-	^	4	137
-	.	4	137
-	+	3	9
-	+	4	52
-	+	3	0
-	+	4	0
-	+	3	35
-	+	4	0
-	+	4	118
-	+	5	3
-	+	4	137
-
-> /tmp/bash-fc-825090615
-	*	1609910105	0
-	"	1	0
-
-> /tmp/bash-fc-91360326
-	*	1609910053	0
-	"	1	1
-	.	1	0
-	+	1	0
-
-> ~/sed_text
-	*	1609908350	0
-	"	1	0
-	^	4	17
-	.	1	0
-	+	1	17
-	+	1	0
-	+	3	15
-	+	4	16
-	+	1	0
-	a	2	1
-
-> ~/example
-	*	1609903706	0
-	"	1	0
-
-> ~/count_test.py
-	*	1609729974	0
-	"	44	64
-	^	44	65
-	.	44	64
-	+	10	25
-	+	12	29
-	+	14	27
-	+	16	8
-	+	10	26
-	+	12	25
-	+	14	0
-	+	17	10
-	+	11	16
-	+	13	52
-	+	17	10
-	+	2	11
-	+	18	0
-	+	15	14
-	+	18	35
-	+	41	100
-	+	48	23
-	+	48	19
-	+	48	20
-	+	48	0
-	+	48	19
-	+	48	0
-	+	49	3
-	+	12	31
-	+	48	4
-	+	1	12
-	+	9	0
-	+	49	0
-	+	48	3
-	+	48	45
-	+	49	36
-	+	48	0
-	+	41	86
-	+	48	0
-	+	49	0
-	+	50	0
-	+	49	5
-	+	50	10
-	+	48	0
-	+	41	83
-	+	41	145
-	+	41	86
-	+	48	0
-	+	41	149
-	+	43	63
-	+	43	0
-	+	3	13
-	+	37	0
-	+	54	0
-	+	50	0
-	+	55	38
-	+	55	41
-	+	56	38
-	+	55	26
-	+	56	19
-	+	40	0
-	+	46	31
-	+	47	0
-	+	33	50
-	+	29	29
-	+	30	37
-	+	32	51
-	+	33	37
-	+	32	42
-	+	30	0
-	+	24	0
-	+	25	52
-	+	33	11
-	+	44	64
-
-> ~/data-table-with-refresh-express/index.js
-	*	1609725771	0
-	"	24	18
-	^	24	19
-	.	24	18
-	+	2	29
-	+	1	28
-	+	26	22
-	+	28	53
-	+	19	0
-	+	10	54
-	+	11	45
-	+	11	0
-	+	13	22
-	+	14	21
-	+	15	28
-	+	16	38
-	+	17	9
-	+	19	1
-	+	26	0
-	+	21	18
-	+	26	2
-	+	20	29
-	+	24	27
-	+	8	0
-	+	7	31
-	+	24	18
-
-> ~/dictionary_defects/venv/lib/python3.5/site-packages/sdictviewer/__init__.py
-	*	1609655152	0
-	"	4	5
-	^	4	6
-	.	4	5
-	+	4	5
-
-> ~/dictionary_defects/test.py
-	*	1609654923	0
-	"	1	0
-	^	26	0
-	.	16	0
-	+	25	18
-	+	16	0

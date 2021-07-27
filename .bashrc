@@ -23,4 +23,3 @@ export PS1;
 
 # cat ~/.wikidates/$(date +%B_%d)| shuf -n 1 | sed -n s/\\^\[[0-9]*\]//p
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-echo "succesfully aliased config"
