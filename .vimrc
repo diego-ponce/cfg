@@ -33,10 +33,16 @@ Plug 'lyuts/vim-rtags'
 Plug 'git@github.com:kien/ctrlp.vim.git'
 Plug 'mattn/emmet-vim'
 Plug 'mbbill/undotree'
+Plug 'nvie/vim-flake8'
+Plug 'dense-analysis/ale'
 call plug#end()
 
 colorscheme gruvbox
 set background=dark
+
+let g:ale_virtualenv_dir_names=[]
+map <leader>at :ALEToggle<CR>
+let g:ale_enabled=0
 
 if executable('rg')
     let g:rg_derive_root='true'
@@ -50,6 +56,7 @@ let g:netrw_winsize = 25
 
 let g:ctrlp_use_caching = 0
 
+
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
@@ -60,8 +67,28 @@ nnoremap <Leader>ps :Rg<SPACE>
 nnoremap <silent> <Leader>+ :vertical resize +5<CR>
 nnoremap <silent> <Leader>- :vertical resize -5<CR>
 
-" set <M-e>=e
+" make Y more like C and D
+nnoremap Y y$
 
+" keep cursor in one place
+nnoremap n nzzzv
+nnoremap N Nzzzv
+
+" update undo points at certain chars
+inoremap , ,<c-g>u
+inoremap . .<c-g>u
+inoremap ! !<c-g>u
+inoremap ? ?<c-g>u
+
+" move text
+vnoremap J :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
+inoremap <C-j> <esc>:m .+1<CR>==
+inoremap <C-k> <esc>:m .-2<CR>==
+nnoremap <leader>j :m .+1<CR>==
+nnoremap <leader>k :m .-2<CR>==
+
+"-- SURROUND CONFIG --
 inoremap <C-e> <C-R>=AutoPairsFastWrap()<CR>
 let g:surround_100 = "{{ \r }}"
 
