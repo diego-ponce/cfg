@@ -11,31 +11,57 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/python
+~MSle0~/source
 
 # Last Substitute Search Pattern:
-~MSle0~&, array
+~MSle0&, array
 
 # Last Substitute String:
-$\r, array
+$
 
 # Command Line History (newest to oldest):
 :q!
-|2,0,1627356536,,"q!"
+|2,0,1640053644,,"q!"
 :x
-|2,0,1627356530,,"x"
+|2,0,1640053571,,"x"
 :PlugUpdate
-|2,0,1627356526,,"PlugUpdate"
+|2,0,1640053559,,"PlugUpdate"
+:set norelativenumber
+|2,0,1640051361,,"set norelativenumber"
+:set nonumber
+|2,0,1640051353,,"set nonumber"
+:e conf_make
+|2,0,1640051342,,"e conf_make"
+:wq
+|2,0,1640052688,,"wq"
+:! source %
+|2,0,1640051513,,"! source %"
+:source %
+|2,0,1640051493,,"source %"
+:FloatermNew
+|2,0,1640047908,,"FloatermNew"
+:FloatermToggle
+|2,0,1640042194,,"FloatermToggle"
+:PlugInstall
+|2,0,1640041702,,"PlugInstall"
+:e .vimrc
+|2,0,1640041690,,"e .vimrc"
+:set hidden
+|2,0,1640041685,,"set hidden"
+:w
+|2,0,1640041594,,"w"
+:e some.sql
+|2,0,1640041041,,"e some.sql"
+:e someting.html
+|2,0,1640040976,,"e someting.html"
+:set scrolloff=8
+|2,0,1640035248,,"set scrolloff=8"
+:vsp README.md
+|2,0,1640034610,,"vsp README.md"
 :plugupdate
 |2,0,1627356521,,"plugupdate"
 :plugupdte
 |2,0,1627356512,,"plugupdte"
-:PlugInstall
-|2,0,1627356464,,"PlugInstall"
-:wq
-|2,0,1627356450,,"wq"
-:w
-|2,0,1627332387,,"w"
 :set wrap
 |2,0,1627258379,,"set wrap"
 :set paste
@@ -82,8 +108,6 @@ $\r, array
 |2,0,1620585251,,"we"
 :e flaskapp.py
 |2,0,1620585158,,"e flaskapp.py"
-:set hidden
-|2,0,1620584626,,"set hidden"
 :ls
 |2,0,1620584568,,"ls"
 :python %
@@ -96,32 +120,16 @@ $\r, array
 |2,0,1619397114,,"%s/couple/pair/g"
 :%s/man/mentor/g
 |2,0,1619397077,,"%s/man/mentor/g"
-:%s/\ man\ /\ mentor\ /g
-|2,0,1619397027,,"%s/\\ man\\ /\\ mentor\\ /g"
-:%s/woman/mentee/g
-|2,0,1619396983,,"%s/woman/mentee/g"
-:%s/_women/_mentees/g
-|2,0,1619396966,,"%s/_women/_mentees/g"
-:%s/_men/_mentors/g
-|2,0,1619396946,,"%s/_men/_mentors/g"
-:%s/_men/mentors/g
-|2,0,1619396927,,"%s/_men/mentors/g"
-:%s/\n/,\ /
-|2,0,1619314586,,"%s/\\n/,\\ /"
-:%s/\ (.*)//
-|2,0,1619314535,,"%s/\\ (.*)//"
-:sb1
-|2,0,1617515471,,"sb1"
-:e regions.py
-|2,0,1617514091,,"e regions.py"
-:bp
-|2,0,1617509676,,"bp"
-:e surf.py
-|2,0,1617508981,,"e surf.py"
-:vert sb rowan.txt
-|2,0,1618292482,,"vert sb rowan.txt"
 
 # Search String History (newest to oldest):
+? \$\(cursor\|select\)\$
+|2,1,1640041003,,"\\$\\(cursor\\|select\\)\\$"
+?/source
+|2,1,1640040791,47,"source"
+?/leader
+|2,1,1640034769,47,"leader"
+?/let map
+|2,1,1640034710,47,"let map"
 ? , array
 |2,1,1626315734,,", array"
 ? python
@@ -204,8 +212,6 @@ $\r, array
 |2,1,1615096209,,", "
 ? main
 |2,1,1615165005,,"main"
-? \$\(cursor\|select\)\$
-|2,1,1615164660,,"\\$\\(cursor\\|select\\)\\$"
 ? 404
 |2,1,1615164393,,"404"
 ? }{
@@ -216,12 +222,6 @@ $\r, array
 |2,1,1614580611,63,"("
 ? >>>\ 
 |2,1,1614579855,,">>>\\ "
-? \<soup\>
-|2,1,1614579769,,"\\<soup\\>"
-? >
-|2,1,1614579754,,">"
-? /\>\>\>\ //g
-|2,1,1614579740,,"/\\>\\>\\>\\ //g"
 
 # Expression History (newest to oldest):
 
@@ -232,58 +232,40 @@ $\r, array
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	The `chrome_print` method converted my links to raw markdown
-|3,0,0,0,1,0,1627260205,"The `chrome_print` method converted my links to raw markdown"
-""1	LINE	0
-	echo "succesfully aliased config"
-|3,1,1,1,1,0,1627356446,"echo \"succesfully aliased config\""
+"0	LINE	0
+	Plug 'tpope/vim-fugitive'
+|3,0,0,1,1,0,1640040755,"Plug 'tpope/vim-fugitive'"
+"1	LINE	0
+	    # pass
+|3,0,1,1,1,0,1640040912,"    # pass"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1627353025,""
+	def somefunc():
+	    pass
+|3,0,2,1,2,0,1640035591,"def somefunc():","    pass"
 "3	LINE	0
-	export SQLALCHEMY_DATABASE_URI='sqlite:///site.db'
-|3,0,3,1,1,0,1627353024,"export SQLALCHEMY_DATABASE_URI='sqlite:///site.db'"
+	echo "succesfully aliased config"
+|3,0,3,1,1,0,1627356446,"echo \"succesfully aliased config\""
 "4	LINE	0
-	export SECRET_KEY='a219bd54ce56bda1064a9a0e2df05646'
-|3,0,4,1,1,0,1627353023,"export SECRET_KEY='a219bd54ce56bda1064a9a0e2df05646'"
+	
+|3,0,4,1,1,0,1627353025,""
 "5	LINE	0
-	---
-|3,0,5,1,1,0,1627180974,"---"
+	export SQLALCHEMY_DATABASE_URI='sqlite:///site.db'
+|3,0,5,1,1,0,1627353024,"export SQLALCHEMY_DATABASE_URI='sqlite:///site.db'"
 "6	LINE	0
-	---
-|3,0,6,1,1,0,1627180972,"---"
+	export SECRET_KEY='a219bd54ce56bda1064a9a0e2df05646'
+|3,0,6,1,1,0,1627353023,"export SECRET_KEY='a219bd54ce56bda1064a9a0e2df05646'"
 "7	LINE	0
+	---
+|3,0,7,1,1,0,1627180974,"---"
+"8	LINE	0
+	---
+|3,0,8,1,1,0,1627180972,"---"
+"9	LINE	0
 	output:
 	  html_document: default
 	  pdf_document: default
 	knit: pagedown::chrome_print
-|3,0,7,1,4,0,1627180918,"output:","  html_document: default","  pdf_document: default","knit: pagedown::chrome_print"
-"8	LINE	0
-	```{css echo=FALSE}
-	/* Define a margin before h2 element */
-	h4  {
-	  margin-top: 2em;
-	}
-	
-	#r-markdown  {
-	  margin-top: 6em;
-	}
-	
-	#r-markdown p:first-of-type {
-	  margin-bottom: 3em;
-	}
-	
-	body  {
-	  margin-top: 4%;
-	  margin-left: 10%;
-	  margin-right: 10%;
-	}
-	``` 
-|3,0,8,1,20,0,1627180912,"```{css echo=FALSE}","/* Define a margin before h2 element */","h4  {","  margin-top: 2em;","}","","#r-markdown  {","  margin-top: 6em;","}","","#r-markdown p:first-of-type {","  margin-bottom: 3em;","}","","body  {","  margin-top: 4%;","  margin-left: 10%;","  margin-right: 10%;","}","``` "
-"9	LINE	0
-	
-|3,0,9,1,1,0,1626315642,""
+|3,0,9,1,4,0,1627180918,"output:","  html_document: default","  pdf_document: default","knit: pagedown::chrome_print"
 "a	CHAR	0
 	yy3p€kh€kr/ s.€kd€kh€krdw€kd€kh€krdwi.€kd€kh
 |3,0,10,0,1,0,0,"yy3p€kh€kr/ s.€kd€kh€krdw€kd€kh€krdwi.€kd€kh"
@@ -296,237 +278,363 @@ $\r, array
 "u	CHAR	0
 	ote€kb€ýa€ýa
 |3,0,30,0,1,0,1611122915,"ote€kb€ýa€ýa"
-"-	CHAR	0
-	/home/rumple
-|3,0,36,0,1,0,1627346881,"/home/rumple"
+""-	CHAR	0
+	x86_64
+|3,1,36,0,1,0,1640050258,"x86_64"
 
 # File marks:
-'0  25  0  ~/.bashrc
-|4,48,25,0,1627356450,"~/.bashrc"
-'1  1  0  ~/.bash_profile
-|4,49,1,0,1627353029,"~/.bash_profile"
-'2  26  31  ~/.bashrc
-|4,50,26,31,1627352783,"~/.bashrc"
-'3  26  31  ~/.bashrc
-|4,51,26,31,1627352783,"~/.bashrc"
-'4  25  65  ~/.bashrc
-|4,52,25,65,1627346888,"~/.bashrc"
-'5  25  65  ~/.bashrc
-|4,53,25,65,1627346888,"~/.bashrc"
-'6  25  65  ~/.bashrc
-|4,54,25,65,1627346888,"~/.bashrc"
-'7  5  18  ~/Desktop/resume/contact.yaml
-|4,55,5,18,1627338228,"~/Desktop/resume/contact.yaml"
-'8  1  12  ~/Desktop/resume/contact.yaml
-|4,56,1,12,1627332906,"~/Desktop/resume/contact.yaml"
-'9  1  12  ~/Desktop/resume/contact.yaml
-|4,57,1,12,1627332906,"~/Desktop/resume/contact.yaml"
+'0  1  0  ~/hello.py
+|4,48,1,0,1640053644,"~/hello.py"
+'1  2  7  ~/hello.py
+|4,49,2,7,1640053635,"~/hello.py"
+'2  2  7  ~/hello.py
+|4,50,2,7,1640053635,"~/hello.py"
+'3  1  0  ~/.vimrc
+|4,51,1,0,1640053576,"~/.vimrc"
+'4  1  0  ~/.vimrq
+|4,52,1,0,1640053545,"~/.vimrq"
+'5  6  105  ~/conf_make
+|4,53,6,105,1640053315,"~/conf_make"
+'6  1  0  ~/conf_make
+|4,54,1,0,1640052692,"~/conf_make"
+'7  1  0  ~/conf_make
+|4,55,1,0,1640052692,"~/conf_make"
+'8  3  38  ~/conf_make
+|4,56,3,38,1640052688,"~/conf_make"
+'9  3  38  ~/conf_make
+|4,57,3,38,1640052688,"~/conf_make"
 
 # Jumplist (newest first):
--'  25  0  ~/.bashrc
-|4,39,25,0,1627356450,"~/.bashrc"
--'  25  0  ~/.bashrc
-|4,39,25,0,1627356450,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1627356446,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1627356446,"~/.bashrc"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1627353029,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1627353029,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1627353029,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1627353029,"~/.bash_profile"
--'  26  31  ~/.bashrc
-|4,39,26,31,1627352783,"~/.bashrc"
--'  26  31  ~/.bashrc
-|4,39,26,31,1627352783,"~/.bashrc"
--'  26  31  ~/.bashrc
-|4,39,26,31,1627352783,"~/.bashrc"
--'  26  31  ~/.bashrc
-|4,39,26,31,1627352783,"~/.bashrc"
--'  26  31  ~/.bashrc
-|4,39,26,31,1627352783,"~/.bashrc"
--'  26  31  ~/.bashrc
-|4,39,26,31,1627352783,"~/.bashrc"
--'  2  0  ~/.bashrc
-|4,39,2,0,1627352756,"~/.bashrc"
--'  2  0  ~/.bashrc
-|4,39,2,0,1627352756,"~/.bashrc"
--'  2  0  ~/.bashrc
-|4,39,2,0,1627352756,"~/.bashrc"
--'  2  0  ~/.bashrc
-|4,39,2,0,1627352756,"~/.bashrc"
--'  2  0  ~/.bashrc
-|4,39,2,0,1627352756,"~/.bashrc"
--'  2  0  ~/.bashrc
-|4,39,2,0,1627352756,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1627347967,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1627347967,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1627347967,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1627347967,"~/.bashrc"
--'  25  65  ~/.bashrc
-|4,39,25,65,1627346888,"~/.bashrc"
--'  25  65  ~/.bashrc
-|4,39,25,65,1627346888,"~/.bashrc"
--'  25  65  ~/.bashrc
-|4,39,25,65,1627346888,"~/.bashrc"
--'  25  65  ~/.bashrc
-|4,39,25,65,1627346888,"~/.bashrc"
--'  25  65  ~/.bashrc
-|4,39,25,65,1627346888,"~/.bashrc"
--'  25  65  ~/.bashrc
-|4,39,25,65,1627346888,"~/.bashrc"
--'  25  65  ~/.bashrc
-|4,39,25,65,1627346888,"~/.bashrc"
--'  25  65  ~/.bashrc
-|4,39,25,65,1627346888,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1627346846,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1627346846,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1627346846,"~/.bashrc"
--'  1  0  ~/.bashrc
-|4,39,1,0,1627346846,"~/.bashrc"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  5  18  ~/Desktop/resume/contact.yaml
-|4,39,5,18,1627338228,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
--'  1  0  ~/Desktop/resume/contact.yaml
-|4,39,1,0,1627338168,"~/Desktop/resume/contact.yaml"
+-'  1  0  ~/hello.py
+|4,39,1,0,1640053644,"~/hello.py"
+-'  2  7  ~/hello.py
+|4,39,2,7,1640053635,"~/hello.py"
+-'  2  7  ~/hello.py
+|4,39,2,7,1640053635,"~/hello.py"
+-'  1  0  ~/hello.py
+|4,39,1,0,1640053595,"~/hello.py"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1640053576,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1640053576,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1640053576,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1640053576,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1640053576,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1640053576,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1640053576,"~/.vimrc"
+-'  1  0  ~/.vimrc
+|4,39,1,0,1640053576,"~/.vimrc"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  1  0  ~/.vimrq
+|4,39,1,0,1640053545,"~/.vimrq"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  6  105  ~/conf_make
+|4,39,6,105,1640053315,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640053281,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640052692,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640052692,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640052692,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640052692,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640052692,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640052692,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640052692,"~/conf_make"
+-'  1  0  ~/conf_make
+|4,39,1,0,1640052692,"~/conf_make"
 
 # History of marks within files (newest to oldest):
 
+> ~/hello.py
+	*	1640053641	0
+	"	1	0
+	^	2	8
+	.	2	7
+	+	2	7
+
+> ~/.vimrc
+	*	1640053571	0
+	"	1	0
+	^	39	28
+	.	39	27
+	+	65	2
+	+	66	0
+	+	67	44
+	+	18	13
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	93	13
+	+	92	0
+	+	95	0
+	+	30	25
+	+	39	27
+
+> ~/.vimrq
+	*	1640053543	0
+	"	1	0
+
+> ~/conf_make
+	*	1640053312	0
+	"	6	105
+	^	8	61
+	.	13	0
+	+	13	50
+	+	14	0
+	+	6	54
+	+	8	61
+	+	13	0
+
+> ~/some.py
+	*	1640047958	0
+	"	1	0
+	^	2	5
+	.	1	0
+	+	1	18
+	+	25	0
+	+	1	0
+	+	33	91
+	+	27	0
+	+	9	0
+	+	8	0
+	+	6	0
+	+	3	5
+	+	2	0
+	+	6	0
+	+	7	0
+	+	2	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	1	0
+	+	10	0
+	+	11	0
+	+	2	0
+	+	10	0
+	+	2	0
+	+	1	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	1	0
+
+> ~/someting.html
+	*	1640041123	0
+	"	1	0
+	^	3	3
+	.	3	0
+	+	1	6
+	+	3	0
+
+> ~/some.sql
+	*	1640041102	0
+	"	2	0
+	^	2	0
+	.	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	0
+
+> ~/somepy.py
+	*	1640035632	0
+	"	5	4
+	.	5	0
+	+	2	0
+	+	1	0
+	+	50	0
+	+	51	0
+	+	50	0
+	+	51	0
+	+	50	0
+	+	34	7
+	+	19	8
+	+	18	12
+	+	34	0
+	+	5	0
+
+> ~/README.md
+	*	1640034646	0
+	"	13	3
+	.	13	3
+	+	13	3
+
 > ~/.bashrc
-	*	1627356448	0
-	"	25	0
+	*	1637805315	0
+	"	1	0
 	.	26	0
 	+	25	65
 	+	26	0
@@ -603,17 +711,6 @@ $\r, array
 	.	77	0
 	+	1	0
 	+	77	0
-
-> ~/some.py
-	*	1626315794	0
-	"	9	0
-	^	27	130
-	.	21	0
-	+	1	18
-	+	19	0
-	+	1	0
-	+	27	91
-	+	21	0
 
 > ~/cs340_intro_databases/advanced_sql_assignment_part_b_starter_code/query3.sql
 	*	1626151231	0
@@ -1876,15 +1973,6 @@ $\r, array
 	.	1	12
 	+	1	12
 
-> ~/.vimrc
-	*	1614474100	0
-	"	65	43
-	^	65	44
-	.	65	44
-	+	63	2
-	+	64	0
-	+	65	44
-
 > ~/.vim/.vimrc
 	*	1614474017	0
 	"	1	0
@@ -2096,64 +2184,3 @@ $\r, array
 	+	19	0
 	+	8	0
 	+	11	0
-
-> ~/Flask_blog/flaskblog/templates/login.html
-	*	1613973279	0
-	"	42	24
-	.	42	0
-	+	45	0
-	+	41	0
-	+	43	0
-	+	41	0
-	+	49	0
-	+	42	0
-
-> ~/Flask_blog/flaskblog/templates/post.html
-	*	1613973279	0
-	"	33	12
-	.	33	0
-	+	8	0
-	+	12	0
-	+	33	0
-
-> ~/Flask_blog/flaskblog/templates/register.html
-	*	1613973279	0
-	"	68	10
-	.	68	0
-	+	68	0
-
-> ~/Flask_blog/flaskblog/templates/reset_request.html
-	*	1613973279	0
-	"	1	0
-	^	7	65
-	.	1	0
-	+	1	0
-	+	9	0
-	+	7	64
-	+	21	0
-	+	25	0
-	+	26	0
-	+	27	0
-	+	26	0
-	+	1	0
-
-> ~/Flask_blog/flaskblog/templates/reset_token.html
-	*	1613973279	0
-	"	1	0
-	.	22	0
-	+	1	0
-	+	34	0
-	+	34	22
-	+	34	0
-	+	8	0
-	+	34	0
-	+	21	0
-	+	22	0
-
-> ~/Flask_blog/flaskblog/templates/*.py
-	*	1613972152	0
-	"	1	0
-
-> ~/Flask_blog/flaskblog/sb forms.py
-	*	1613963202	0
-	"	1	0

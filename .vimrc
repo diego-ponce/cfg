@@ -1,5 +1,5 @@
-syntax on
 
+syntax on
 
 set noerrorbells
 set tabstop=4 softtabstop=4
@@ -15,7 +15,7 @@ set undodir=~/.vim/undodir
 set undofile
 set incsearch
 set relativenumber
-
+set splitright
 
 set colorcolumn=80
 highlight ColorColumn ctermbg=0 guibg=lightgrey
@@ -27,6 +27,7 @@ Plug 'tpope/vim-surround'
 Plug 'morhetz/gruvbox'
 Plug 'jremmen/vim-ripgrep'
 Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-commentary'
 Plug 'leafgarland/typescript-vim'
 Plug 'vim-utils/vim-man'
 Plug 'lyuts/vim-rtags'
@@ -35,6 +36,7 @@ Plug 'mattn/emmet-vim'
 Plug 'mbbill/undotree'
 Plug 'nvie/vim-flake8'
 Plug 'dense-analysis/ale'
+Plug 'voldikss/vim-floaterm'
 call plug#end()
 
 colorscheme gruvbox
@@ -87,6 +89,9 @@ inoremap <C-j> <esc>:m .+1<CR>==
 inoremap <C-k> <esc>:m .-2<CR>==
 nnoremap <leader>j :m .+1<CR>==
 nnoremap <leader>k :m .-2<CR>==
+vnoremap < <gv
+vnoremap > >gv
+
 
 "-- SURROUND CONFIG --
 inoremap <C-e> <C-R>=AutoPairsFastWrap()<CR>
