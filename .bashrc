@@ -23,4 +23,10 @@ export PS1;
 
 # cat ~/.wikidates/$(date +%B_%d)| shuf -n 1 | sed -n s/\\^\[[0-9]*\]//p
 alias config='$(which git) --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+export EDITOR=vim
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
