@@ -107,8 +107,8 @@ endfor
 
 
 " -- AUTOCMDS --{{{2
-autocmd BufWinLeave *.* mkview
-autocmd BufWinEnter *.* silent loadview
+" autocmd BufWinLeave *.* mkview
+" autocmd BufWinEnter *.* silent loadview
 
 
 " leader{{{1
