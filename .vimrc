@@ -27,6 +27,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'airblade/vim-gitgutter'
 Plug 'dhruvasagar/vim-zoom'
+Plug 'jamespeapen/Nvim-R'
 call plug#end()
 " general{{{1
 " -- SETS --{{{2
@@ -106,9 +107,6 @@ exe "nnoremap ya".key." F".key."yf".value
 endfor
 
 
-" -- AUTOCMDS --{{{2
-" autocmd BufWinLeave *.* mkview
-" autocmd BufWinEnter *.* silent loadview
 
 
 " leader{{{1
